@@ -23,4 +23,12 @@
   controller: BaseController
   action: Leaderboard
   title: UBAPBAP - Leaderboard
+
+### CHARACTERS ### TODO: use database, or use (potential) bapbap's api
+/characters/kitsu:
+  controller: CharactersController
+  action: Kitsu
+  title: UBAPBAP - Kitsu
+### ### ###
+
 ### ### ###

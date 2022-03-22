@@ -13,7 +13,7 @@ class BaseController {
 	}
 
 	public function charactersAction(){
-		$view = new View("characters", "base");
+		$view = new View("Characters/characters", "base");
 	}
 
 	public function itemsAction(){

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Fact';
+    src: url('/public/fonts/Fact-CompressedBold.woff2') format('woff2'),
+        url('/public/fonts/Fact-CompressedBold.woff') format('woff'),
+        url('/public/fonts/Fact-CompressedBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 :root {
     --background-main: #070720;
     --font-color-main: #fff;
@@ -11,7 +20,6 @@
 }
 body {
     font-size: 1rem;
-    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
 
     font-family: Helvetica Neue,Roboto,Arial,Sans-Serif!important;

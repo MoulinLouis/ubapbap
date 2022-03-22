@@ -118,7 +118,7 @@
 
         var path = window.location.href;
         $('.side-navigator a').each(function() {
-            if (this.href === path) {
+            if (path.indexOf(this.href) >= 0) {
                 $(this).addClass('active');
                 $(this).find("span").css('color', 'white');
                 $(this).find("path").css('fill', 'orange');
