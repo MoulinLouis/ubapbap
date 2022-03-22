@@ -3,4 +3,24 @@
   controller: BaseController
   action: Home
   title: UBAPBAP - Home page
+
+/characters:
+  controller: BaseController
+  action: Characters
+  title: UBAPBAP - All characters
+
+/items:
+  controller: BaseController
+  action: Items
+  title: UBAPBAP - All items
+
+/tierlist:
+  controller: BaseController
+  action: Tierlist
+  title: UBAPBAP - Tierlist
+
+/leaderboard:
+  controller: BaseController
+  action: Leaderboard
+  title: UBAPBAP - Leaderboard
 ### ### ###
