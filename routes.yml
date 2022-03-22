@@ -1,0 +1,6 @@
+### FRONT OFFICE ###
+/:
+  controller: BaseController
+  action: Home
+  title: UBAPBAP - Home page
+### ### ###
