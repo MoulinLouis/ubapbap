@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                         </div>
-                        <h1>Currently made by <span id="whodidit"></span></h1>
+                        <h1><span id="whodidit"></span></h1>
 
                         <div class="content-section recommended-build_items">
                             <div class="content-section_content item-options item-options-1">

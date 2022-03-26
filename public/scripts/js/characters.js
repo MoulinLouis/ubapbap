@@ -44,7 +44,7 @@ switch(currentCharName) {
             spell_space: "<h3><strong>DASH</strong></h1><strong>Perform a quick dash.</strong><br>CD : 3 seconds",
             spell_e: "<h3><strong>TORNADO</strong></h1><strong>Spin and shoot everything around you. Apply slow on hit.</strong><br>Base damage : 140 every 0.35s<br>CD : 15 seconds"
         }
-        document.getElementById('whodidit').innerHTML = "Darkgui"
+        document.getElementById('whodidit').innerHTML = "Currently made by Darkgui"
         break;
     case "chuck":
         currentChar = {
@@ -71,15 +71,15 @@ switch(currentCharName) {
                 avg_dmg: Math.round(13014.75898 * 100) / 100,
             },
             builds: {
-                optimal_build: ["sword", "heart_bag", "sunglasses"],
-                core_items: ["sword", "heart_bag"],
-                good_items: ["sunglasses", "teeth", "headband", "boots"],
-                trash_items: ["spike_armor", "banana"]
+                optimal_build: [],
+                core_items: [],
+                good_items: [],
+                trash_items: []
             },
             matchups: {
-                good: [["skinny", ""], ["zook", ""]],
-                bad: [["froggy", ""], ["kiddo", ""]],
-                synergy: [["sashimi", "Peel you good"], ["kiddo", "Combo ultimate"]]
+                good: [],
+                bad: [],
+                synergy: []
             },
             spell_m1: "",
             spell_a: "",
@@ -112,15 +112,15 @@ switch(currentCharName) {
                 avg_dmg: Math.round(13014.75898 * 100) / 100,
             },
             builds: {
-                optimal_build: ["sword", "heart_bag", "sunglasses"],
-                core_items: ["sword", "heart_bag"],
-                good_items: ["sunglasses", "teeth", "headband", "boots"],
-                trash_items: ["spike_armor", "banana"]
+                optimal_build: [],
+                core_items: [],
+                good_items: [],
+                trash_items: []
             },
             matchups: {
-                good: [["skinny", ""], ["zook", ""]],
-                bad: [["froggy", ""], ["kiddo", ""]],
-                synergy: [["sashimi", "Peel you good"], ["kiddo", "Combo ultimate"]]
+                good: [],
+                bad: [],
+                synergy: []
             },
             spell_m1: "",
             spell_a: "",
@@ -153,15 +153,15 @@ switch(currentCharName) {
                 avg_dmg: Math.round(13014.75898 * 100) / 100,
             },
             builds: {
-                optimal_build: ["sword", "heart_bag", "sunglasses"],
-                core_items: ["sword", "heart_bag"],
-                good_items: ["sunglasses", "teeth", "headband", "boots"],
-                trash_items: ["spike_armor", "banana"]
+                optimal_build: [],
+                core_items: [],
+                good_items: [],
+                trash_items: []
             },
             matchups: {
-                good: [["skinny", ""], ["zook", ""]],
-                bad: [["froggy", ""], ["kiddo", ""]],
-                synergy: [["sashimi", "Peel you good"], ["kiddo", "Combo ultimate"]]
+                good: [],
+                bad: [],
+                synergy: []
             },
             spell_m1: "",
             spell_a: "",
@@ -209,7 +209,7 @@ switch(currentCharName) {
             spell_space: "<h3><strong>RECOIL BLAST</strong></h1><strong>Shoot the ground to jump away. Apply knock up on hit.</strong><br>Base damage : 120<br>CD : 6 seconds",
             spell_e: "<h3><strong>ARROW MISSILE</strong></h1><strong>Shoot a big energy arrow that pierces obstacles and enemies. Apply slow on hit</strong><br>Base damage : 420<br>Base CD : 20 seconds"
         }
-        document.getElementById('whodidit').innerHTML = "Darkni"
+        document.getElementById('whodidit').innerHTML = "Currently made by Darkni"
         break;
     case "sashimi":
         currentChar = {
@@ -236,15 +236,15 @@ switch(currentCharName) {
                 avg_dmg: Math.round(13014.75898 * 100) / 100,
             },
             builds: {
-                optimal_build: ["sword", "heart_bag", "sunglasses"],
-                core_items: ["sword", "heart_bag"],
-                good_items: ["sunglasses", "teeth", "headband", "boots"],
-                trash_items: ["spike_armor", "banana"]
+                optimal_build: [],
+                core_items: [],
+                good_items: [],
+                trash_items: []
             },
             matchups: {
-                good: [["skinny", ""], ["zook", ""]],
-                bad: [["froggy", ""], ["kiddo", ""]],
-                synergy: [["sashimi", "Peel you good"], ["kiddo", "Combo ultimate"]]
+                good: [],
+                bad: [],
+                synergy: []
             },
             spell_m1: "",
             spell_a: "",
@@ -277,15 +277,15 @@ switch(currentCharName) {
                 avg_dmg: Math.round(13014.75898 * 100) / 100,
             },
             builds: {
-                optimal_build: ["sword", "heart_bag", "sunglasses"],
-                core_items: ["sword", "heart_bag"],
-                good_items: ["sunglasses", "teeth", "headband", "boots"],
-                trash_items: ["spike_armor", "banana"]
+                optimal_build: [],
+                core_items: [],
+                good_items: [],
+                trash_items: []
             },
             matchups: {
-                good: [["skinny", ""], ["zook", ""]],
-                bad: [["froggy", ""], ["kiddo", ""]],
-                synergy: [["sashimi", "Peel you good"], ["kiddo", "Combo ultimate"]]
+                good: [],
+                bad: [],
+                synergy: []
             },
             spell_m1: "",
             spell_a: "",
@@ -333,7 +333,7 @@ switch(currentCharName) {
             spell_space: "<h3><strong>ROCKET JUMP</strong></h1><strong>Blast the ground under you to jump to a location. Apply knock up on hit.</strong><br>Base damage : 170<br>CD : 6 seconds",
             spell_e: "<h3><strong>PROXIMITY MINES</strong></h1><strong>Throw proximity mines on the ground. Apply slow on hit.</strong><br>Base damage : 150 per mine<br>CD : 15 seconds"
         }
-        document.getElementById('whodidit').innerHTML = "Menace"
+        document.getElementById('whodidit').innerHTML = "Currently made by Menace"
         break;
 }
 
