@@ -84,6 +84,12 @@
                         </a>
                     </div>
                 </div>
+                <div class="side-nav_footer">
+                    <div class="disclaimer">
+                        <div class="disclaimer-title">UBAPBAP ©</div>
+                        <span>ubapbap isn't endorsed by bapbap.gg.</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div style="width: 100%">

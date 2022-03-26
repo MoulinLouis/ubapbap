@@ -7,8 +7,10 @@ use App\Core\View;
 
 class CharactersController {
 
-	public function kitsuAction(){
-		$view = new View("Characters/kitsu", "base");
+	
+	public function characterAction(){
+		$view = new View("Characters/character", "base");
+		$view->assign('currentChar', basename($_SERVER["REQUEST_URI"]));
 	}
 
 }

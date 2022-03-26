@@ -152,7 +152,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.champion-profile-page, .stats-tables-container .stats-tables__content-container, .summoner-profile-container .summoner-profile_content-container, .text-content-container {
+.character-profile-page, .stats-tables-container .stats-tables__content-container, .summoner-profile-container .summoner-profile_content-container, .text-content-container {
     margin-left: auto!important;
     margin-right: auto!important;
 }
@@ -284,4 +284,166 @@
 }
 .filter-manager .filter-manager_label svg {
     width: 18px;
+}
+.recommended-build_items {
+    display: grid;
+    grid-template-columns: repeat(5,202px);
+    grid-auto-flow: column;
+}
+.recommended-build_items>:not(:last-child) {
+    border-right: 1px solid #414165;
+}
+.content-section_content {
+    padding: 24px;
+}
+.content-section_header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 14px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+}
+.item-option {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.item-img {
+    border-radius: 3px;
+    overflow: hidden;
+}
+.item-stats {
+    margin-left: 12px;
+}
+.item-stats .winrate {
+    font-size: 12px;
+    font-weight: 700;
+}
+.item-stats .matches {
+    color: #cddcfe;
+    font-size: 11px;
+}
+.matchups-wrapper {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(2,49%);
+    grid-gap: 1%;
+    padding-bottom: 30px;
+
+}
+.matchups-wrapper:not(:last-child) {
+    padding-bottom: 0px;
+}
+.toughest-matchups {
+    flex: 1 1;
+    margin-top: 24px;
+    border-radius: 6px 0 0 6px;
+    overflow: hidden;
+}
+.content-section .content-section_header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #3273fa;
+}
+.matchups {
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+    grid-gap: 12px;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+.character-matchup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 73px;
+    padding: 6px 0;
+    border-radius: 3px;
+    background-color: #11112a;
+    color: #fff;
+    text-align: center;
+}
+.character-face {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.character-face>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%) scale(1.1);
+}
+.character-name-2 {
+    margin-top: 6px;
+    max-width: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 700;
+}
+.toughest-matchups {
+    flex: 1 1;
+    margin-top: 24px;
+    border-radius: 6px 0 0 6px;
+    overflow: hidden;
+}
+div.custom-select {
+    position: relative;
+    display: inline-block;
+    border-radius:36px;
+    overflow:hidden;
+
+}
+
+.custom-select select {
+    display: inline-block;
+    padding: 4px 3px 3px 5px;
+    margin: 0;
+    font: inherit;
+    outline:none; /* remove focus ring from Webkit */
+    line-height: 1.2;
+    background: rgb(141, 141, 141);
+    color:white;
+    border:0;
+}
+
+/* Select arrow styling */
+.custom-select:after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 60%;
+    line-height: 30px;
+    padding: 0 7px;
+    background: rgb(141, 141, 141);
+    color: white;
+    pointer-events: none;
+}
+
+.no-pointer-events .custom-select:after {
+    content: none;
+}
+.character-description {
+    font-size: 12px;
 }

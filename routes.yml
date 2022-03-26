@@ -25,9 +25,49 @@
   title: UBAPBAP - Leaderboard
 
 ### CHARACTERS ### TODO: use database, or use (potential) bapbap's api
+/characters/anna:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Anna
+
+/characters/chuck:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Chuck
+
+/characters/froggy:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Froggy
+
+/characters/kiddo:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Kiddo
+
 /characters/kitsu:
   controller: CharactersController
-  action: Kitsu
+  action: Character
+  title: UBAPBAP - Kitsu
+
+/characters/sashimi:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Sashimi
+
+/characters/skinny:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Skinny
+
+/characters/zook:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Zook
+
+/characters/test:
+  controller: CharactersController
+  action: test
   title: UBAPBAP - Kitsu
 ### ### ###
 

@@ -117,3 +117,27 @@ a, a:hover, a:active, a:focus {
     margin-right: auto;
     margin-bottom: 60px;
 }
+.side-nav_footer {
+    width: 240px;
+    flex: 0 0 auto;
+    font-family: Helvetica Neue,Roboto,Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 24px;
+}
+.side-nav_footer .disclaimer {
+    width: 190px;
+    padding: 24px 0;
+}
+.side-nav_footer .disclaimer .disclaimer-title {
+    font-size: 1.4rem;
+    padding-bottom: 12px;
+    color: #bbbedb;
+    font-weight: 500;
+}
+.side-nav_footer .disclaimer span {
+    font-size: 1.2rem;
+    color: #5f5f7b;
+}

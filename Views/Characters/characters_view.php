@@ -7,14 +7,7 @@
             <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
         <div class="characters-container">
-            <a href="/characters/kitsu" class="character-link">
-                <div class="image-wrapper-char">
-                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/kitsu.png')?>" alt="">
-                </div>
-                <div class="character-name">Kitsu</div>
-            </a>
-
-            <a href="/characters/anna" class="character-link">
+        <a href="/characters/anna" class="character-link">
                 <div class="image-wrapper-char">
                     <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/anna.png')?>" alt="">
                 </div>
@@ -26,11 +19,11 @@
                 </div>
                 <div class="character-name">Chuck</div>
             </a>
-            <a href="/characters/sashimi" class="character-link">
+            <a href="/characters/froggy" class="character-link">
                 <div class="image-wrapper-char">
-                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/sashimi.png')?>" alt="">
+                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/froggy.png')?>" alt="">
                 </div>
-                <div class="character-name">Sashimi</div>
+                <div class="character-name">Froggy</div>
             </a>
             <a href="/characters/kiddo" class="character-link">
                 <div class="image-wrapper-char">
@@ -38,11 +31,17 @@
                 </div>
                 <div class="character-name">Kiddo</div>
             </a>
-            <a href="/characters/zook" class="character-link">
+            <a href="/characters/kitsu" class="character-link">
                 <div class="image-wrapper-char">
-                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/zook.png')?>" alt="">
+                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/kitsu.png')?>" alt="">
                 </div>
-                <div class="character-name">Zook</div>
+                <div class="character-name">Kitsu</div>
+            </a>
+            <a href="/characters/sashimi" class="character-link">
+                <div class="image-wrapper-char">
+                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/sashimi.png')?>" alt="">
+                </div>
+                <div class="character-name">Sashimi</div>
             </a>
             <a href="/characters/skinny" class="character-link">
                 <div class="image-wrapper-char">
@@ -50,12 +49,13 @@
                 </div>
                 <div class="character-name">Skinny</div>
             </a>
-            <a href="/characters/froggy" class="character-link">
+            <a href="/characters/zook" class="character-link">
                 <div class="image-wrapper-char">
-                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/froggy.png')?>" alt="">
+                    <img style="width: 100%" src="<?php App\Core\View::getAssets('characters/zook.png')?>" alt="">
                 </div>
-                <div class="character-name">Froggy</div>
+                <div class="character-name">Zook</div>
             </a>
+
         </div>
     </div>
 </div>
