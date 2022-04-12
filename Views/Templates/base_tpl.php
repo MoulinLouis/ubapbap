@@ -87,7 +87,7 @@
                 <div class="side-nav_footer">
                     <div class="disclaimer">
                         <div class="disclaimer-title">UBAPBAP ©</div>
-                        <span>ubapbap isn't endorsed by bapbap.gg. <br>If you'd like to contribute to this website in terms of build, tierlist or anything else, feel free to contact Playfade#7683 on discord.</span>
+                        <span>ubapbap isn't endorsed by bapbap.gg.<br><br>If you'd like to contribute to this website in terms of build, tierlist or anything else, feel free to contact Playfade#7683 on discord.</span>
                     </div>
                 </div>
             </div>

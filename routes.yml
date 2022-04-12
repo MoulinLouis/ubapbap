@@ -23,8 +23,9 @@
   controller: BaseController
   action: Leaderboard
   title: UBAPBAP - Leaderboard
+### ### ###
 
-### CHARACTERS ### TODO: use database, or use (potential) bapbap's api
+### CHARACTERS ### TODO: use (potential) bapbap's api
 /characters/anna:
   controller: CharactersController
   action: Character
@@ -60,6 +61,11 @@
   action: Character
   title: UBAPBAP - Skinny
 
+/characters/teevee:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Teevee
+
 /characters/zook:
   controller: CharactersController
   action: Character
@@ -71,4 +77,44 @@
   title: UBAPBAP - Kitsu
 ### ### ###
 
+### ITEMS ###
+/items/heartbag:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Heart bag
+
+/items/boots:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Boots
+
+/items/teeth:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Teeth
+
+/items/spikearmor:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Spike armor
+
+/items/sword:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Sword
+
+/items/headband:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Headbands
+
+/items/sunglasses:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Sunglasses
+
+/items/banana:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Banana
 ### ### ###

@@ -63,6 +63,9 @@ const chars = {
     skinny: {
         name: "Skinny"
     },
+    teevee: {
+        name: "Teevee"
+    },
     zook: {
         name: "Zook"
     }

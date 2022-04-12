@@ -24,6 +24,11 @@
                     </div>
                 </div>
 
+                <h1 class="character-label">
+                    <span class="character-name" id="char-name">HP : <span id="character_hp"></span></span>
+                    <span class="character-title" id="char-desc">Speed : <span id="character_speed"></span></span>
+                </h1><br>
+
                 <div class="character-profile-page">
                     <div class="character-build">
                         <div class="character-skills" style="padding-bottom: 25px">
@@ -47,6 +52,9 @@
                             </div>
                         </div>
 
+
+                            
+
                         <div class="filter-manager">
                             <div class="filter-width-wrapper">
                                 <div class="filter-manager_container">
@@ -56,8 +64,9 @@
                                     </div>
                                     <div class="custom-select">
                                         <select name="" id="select-play-zone">
-                                            <option value="1">Ranked Trios</option>
-                                            <option value="2">Ranked Duos</option>
+                                            <option value="1">Ranked Trios #1</option>
+                                            <option value="2">Ranked Duos #1</option>
+                                            <option value="3">Ranked Trios #2</option>
                                         </select>
                                     </div>
 
@@ -127,10 +136,9 @@
                                 </div>
                             </div>
                             <div class="content-section_content item-options item-options-1">
-                                <div class="content-section_header">It's no. items</div>
+                                <div class="content-section_header">Lame</div>
                                 <div class="item-option-list" id="build-trash_items">
                                     
-
                                 </div>
                             </div>
                         </div>

@@ -6,6 +6,8 @@ const elStatWins = document.getElementById('stat_wins')
 const elStatKill = document.getElementById('stat_kill')
 const elStatAvgDmg = document.getElementById('stat_avg_dmg')
 const elStatPickrate = document.getElementById('stat_pickrate')
+const elCharHp = document.getElementById('character_hp')
+const elCharSpeed = document.getElementById('character_speed')
 
 const elSpell_m1 = document.getElementById('spell_m1')
 const elSpell_a = document.getElementById('spell_a')
@@ -21,8 +23,10 @@ selectStats.addEventListener('change', loadStats)
 // selectBuilds.addEventListener('change', loadBuilds)
 
 function loadStats() {
-    if(selectStats.value == 1) loadStat(currentChar.stats_trio)
-    if(selectStats.value == 2) loadStat(currentChar.stats_duo)
+    console.log(currentChar.stats_trio)
+    if(selectStats.value == 1) loadStat(currentChar.stats_trio_1)
+    if(selectStats.value == 2) loadStat(currentChar.stats_duo_1)
+    if(selectStats.value == 3) loadStat(currentChar.stats_trio_2)
 }
 
 function loadStat(stats) {
@@ -64,6 +68,8 @@ const elCharDesc = document.getElementById('char-desc')
 function loadInfos(char) {
     elCharName.innerHTML = char.name
     elCharDesc.innerHTML = char.desc
+    elCharHp.innerHTML = char.hp
+    elCharSpeed.innerHTML = char.speed
 }
 
 const elGoodMatchups = document.getElementById("good-matchups")

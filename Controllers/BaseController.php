@@ -17,7 +17,7 @@ class BaseController {
 	}
 
 	public function itemsAction(){
-		$view = new View("items", "base");
+		$view = new View("Items/items", "base");
 	}
 
 	public function tierlistAction(){
