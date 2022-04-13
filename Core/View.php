@@ -30,6 +30,9 @@ class View
 			case ($nameFileType == "png" || $nameFileType == "jpg" || $nameFileType == "svg" || $nameFileType == "jpeg") :
 				echo Routing::getBaseUrl() . '/public/images/'.$nameFile;
 				return;
+			case ($nameFileType == "mp4") :
+				echo Routing::getBaseUrl() . '/public/videos/'.$nameFile;
+				return;
 			case ($nameFileType == "js") :
 				echo Routing::getBaseUrl() . '/public/scripts/js/'.$nameFile;
 				return;
