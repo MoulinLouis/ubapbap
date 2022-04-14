@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("characters.css")?>">
-<link rel="stylesheet" href="http://protip.rocks/protip.min.css">
+<link rel="stylesheet" href="<?php App\Core\View::getAssets("libraries/protip.min.css")?>">
 
 <div class="character-profile-main-page">
     <div class="character-profile-content-container">
@@ -180,7 +180,7 @@
     </div>
 </div>
 
-<script src="http://protip.rocks/protip.min.js"></script>
+<script src="<?php App\Core\View::getAssets("libraries/protip.min.js")?>"></script>
 <script src="<?php App\Core\View::getAssets("characters.js")?>"></script>
 <script src="<?php App\Core\View::getAssets("items.js")?>"></script>
 
