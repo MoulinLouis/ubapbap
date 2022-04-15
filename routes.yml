@@ -23,6 +23,11 @@
   controller: BaseController
   action: Leaderboard
   title: UBAPBAP - Leaderboard
+
+/about:
+  controller: BaseController
+  action: About
+  title: UBAPBAP - About ubapbap
 ### ### ###
 
 ### CHARACTERS ### TODO: use (potential) bapbap's api

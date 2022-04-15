@@ -28,4 +28,8 @@ class BaseController {
 		$view = new View("leaderboard", "base");
 	}
 
+	public function aboutAction(){
+		$view = new View("about", "empty");
+	}
+
 }

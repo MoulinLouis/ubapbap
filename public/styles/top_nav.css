@@ -59,4 +59,22 @@
     width: 14px;
     height: 14px;
 }
-
+.btn-blue {
+    border-color: #3273fa;
+    background-color: #3273fa;
+}
+.btn-blue:hover {
+    border-color: #3250fa;
+    background-color: #3250fa;
+}
+.btn-blue, .btn-common, .btn-dark, .btn-gray, .btn-light-blue, .btn-red, .btn-transparent {
+    padding: 0 15px;
+    min-width: 78px;
+    min-height: 36px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
