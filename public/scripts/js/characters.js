@@ -97,13 +97,13 @@ switch(currentCharName) {
             builds: {
                 optimal_build: ["heart_bag", "boots", "spike_armor"],
                 core_items: ["heart_bag", "boots"],
-                good_items: ["spike_armor", "headband", "banana", "sword", "sunglasses"],
-                trash_items: ["teeth"]
+                good_items: ["spike_armor", "headband", "banana", "sword", "teeth"],
+                trash_items: ["sunglasses"]
             },
             matchups: {
-                good: [],
-                bad: [["sashimi", ""], ["skinny", ""], ["froggy", ""]],
-                synergy: []
+                good: [["kitsu", "Bully her by hitting your space into Q again and again, when you're out of her space range, use your ult"], ["zook", "Same as kitsu"]],
+                bad: [["sashimi", "You need to ult before fight and use your space when sashimi uses his ult"], ["anna", "If anna runs banana, it's really hard. Try to bait a dash and then space Q her into instant ult to refresh cd and space Q again"], ["froggy", "You have to ult before the fight, but froggy is hard. Try to bait his cd with Q cancel"]],
+                synergy: [["kitsu", "Do massive damages while you put them in place"], ["zook", "Do massive damages while you put them in place"], ["teevee", "Do massive damages while you put them in place"]]
             },
             spell_m1: "<h3><strong>PUNCH</strong></h3><strong>Punch for a 3-hit combo.</strong><br>Damage : 170 per punch",
             spell_a: "<h3><strong>CHUCK PUNCH</strong></h3><strong>Throw a powerful punch. Apply stun on hit.</strong><br>Damage : 320<br>CD : 5 seconds",
