@@ -426,7 +426,7 @@ switch(currentCharName) {
             good: [["sashimi", ""]],
 
             matchups: {
-                good: [["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["kiddo", "Can't iframe so free kill"], ["anna", "Can't iframe so free kill"], ["skinny", "You can predict where h's coming from and it's hard for him to iframe with his E"]],
+                good: [["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["kiddo", "Can't iframe so free kill"], ["anna", "Can't iframe so free kill"], ["skinny", "You can predict where h's coming from and it's hard for him to iframe with his E"]],
                 bad: [["froggy", "Make him use all his abilities and then hit him with triple Q to kill him instantly"], ["sashimi", "TP away when you're stunned (you can TP while stunned which is... OP"], ["zook", "Can clear your clone easily. Only put clones when he already jumped so you can triple Q"]],
                 synergy: [["sashimi", "Can help you to setup your 2 clones and triple Q a team"], ["zook", "Cool to slow people with ult to setup more easily the triple Q"], ["kitsu", "A lots of root with her ult"]]
             },
