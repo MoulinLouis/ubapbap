@@ -97,7 +97,7 @@ switch(currentCharName) {
             builds: {
                 optimal_build: ["heart_bag", "boots", "spike_armor"],
                 core_items: ["heart_bag", "boots"],
-                good_items: ["spike_armor", "headband", "banana", "sword", "teeth"],
+                good_items: ["spike_armor", "headband", "teeth", "banana", "sword"],
                 trash_items: ["sunglasses"]
             },
             matchups: {
