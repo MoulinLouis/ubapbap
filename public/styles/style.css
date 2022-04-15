@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Fact';
+    src: url('/public/fonts/Fact-CompressedBold.woff2') format('woff2'),
+        url('/public/fonts/Fact-CompressedBold.woff') format('woff'),
+        url('/public/fonts/Fact-CompressedBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --background-main: #070720;
+    --font-color-main: #fff;
+    --top-nav-bg-color: #0b0b23;
+    --side-nav-bg-color: #17172e;
+    --side-nav-text-color: #bbbedb;
+    --nav-border-color: #31334a;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    margin: 0;
+
+    font-family: Helvetica Neue,Roboto,Arial,Sans-Serif!important;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.35;
+    color: var(--font-color-main);
+    text-align: left;
+    background-color: var(--background-main);
+    height: auto!important;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    font-weight: 400;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.ubapbap-logo {
+    /* height: 30px; */
+}
+
+.main-content {
+    color: #fff;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.content-wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content {
+    display: flex;
+    margin: 0 auto;
+    z-index: 100;
+    width: 100%;
+}
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.desktop-app-landing-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+}
+.landing-background {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -4;
+}
+.landing-background>.overlay {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(7,7,32,.7);
+}
+.desktop-app-landing-page .landing-background>video {
+    position: absolute;
+    z-index: -4;
+    min-width: 1920px;
+    width: 100%;
+}
+.desktop-app-landing-page_header {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.side-nav_footer {
+    width: 240px;
+    flex: 0 0 auto;
+    font-family: Helvetica Neue,Roboto,Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 24px;
+}
+.side-nav_footer .disclaimer {
+    width: 190px;
+    padding: 24px 0;
+}
+.side-nav_footer .disclaimer .disclaimer-title {
+    font-size: 1.4rem;
+    padding-bottom: 12px;
+    color: #bbbedb;
+    font-weight: 500;
+}
+.side-nav_footer .disclaimer span {
+    font-size: 1.2rem;
+    color: #5f5f7b;
+}

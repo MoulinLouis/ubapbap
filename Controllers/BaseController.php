@@ -12,4 +12,24 @@ class BaseController {
 		$view = new View("default", "base");
 	}
 
+	public function charactersAction(){
+		$view = new View("Characters/characters", "base");
+	}
+
+	public function itemsAction(){
+		$view = new View("Items/items", "base");
+	}
+
+	public function tierlistAction(){
+		$view = new View("tierlist", "base");
+	}
+
+	public function leaderboardAction(){
+		$view = new View("leaderboard", "base");
+	}
+
+	public function aboutAction(){
+		$view = new View("about", "empty");
+	}
+
 }
