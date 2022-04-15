@@ -39,7 +39,7 @@
 
                             <div class="character-skill-with-label protip" id="spell_a" data-pt-gravity="top">
                                 <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_a.png")?>" alt="">
-                                <div class="skill-label bottom-center">A</div>
+                                <div class="skill-label bottom-center">Q</div>
                                 
                             </div>
                             <div class="character-skill-with-label protip" id="spell_space" data-pt-gravity="top">
