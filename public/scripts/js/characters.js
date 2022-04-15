@@ -102,7 +102,7 @@ switch(currentCharName) {
             },
             matchups: {
                 good: [["kitsu", "Bully her by hitting your space into Q again and again, when you're out of her space range, use your ult"], ["zook", "Same as kitsu"]],
-                bad: [["sashimi", "You need to ult before fight and use your space when sashimi uses his ult"], ["anna", "If anna runs banana, it's really hard. Try to bait a dash and then space Q her into instant ult to refresh cd and space Q again"], ["froggy", "You have to ult before the fight, but froggy is hard. Try to bait his cd with Q cancel"]],
+                bad: [["sashimi", "You need to ult before fight and use your space when sashimi uses his ult"], ["anna", "If anna runs banana, it's really hard. Try to bait a dash and then space Q her into instant ult to refresh cd and space Q again"], ["froggy", "You have to ult before the fight, but froggy is hard. Try to bait his cd with Q cancel"], ["teevee", "Hard to reach against a good teevee. Keep your space to avoid double/triple Q"]],
                 synergy: [["kitsu", "Do massive damages while you put them in place"], ["zook", "Do massive damages while you put them in place"], ["teevee", "Do massive damages while you put them in place"]]
             },
             spell_m1: "<h3><strong>PUNCH</strong></h3><strong>Punch for a 3-hit combo.</strong><br>Damage : 170 per punch",
