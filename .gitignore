@@ -1,3 +1,5 @@
 .docker/log/*
 .env*
 /vendor/
+/node_modules/
+/certbot/

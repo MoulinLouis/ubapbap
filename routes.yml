@@ -3,4 +3,123 @@
   controller: BaseController
   action: Home
   title: UBAPBAP - Home page
+
+/characters:
+  controller: BaseController
+  action: Characters
+  title: UBAPBAP - All characters
+
+/items:
+  controller: BaseController
+  action: Items
+  title: UBAPBAP - All items
+
+/tierlist:
+  controller: BaseController
+  action: Tierlist
+  title: UBAPBAP - Tierlist
+
+/leaderboard:
+  controller: BaseController
+  action: Leaderboard
+  title: UBAPBAP - Leaderboard
+
+/about:
+  controller: BaseController
+  action: About
+  title: UBAPBAP - About ubapbap
+### ### ###
+
+### CHARACTERS ### TODO: use (potential) bapbap's api
+/characters/anna:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Anna
+
+/characters/chuck:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Chuck
+
+/characters/froggy:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Froggy
+
+/characters/kiddo:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Kiddo
+
+/characters/kitsu:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Kitsu
+
+/characters/sashimi:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Sashimi
+
+/characters/skinny:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Skinny
+
+/characters/teevee:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Teevee
+
+/characters/zook:
+  controller: CharactersController
+  action: Character
+  title: UBAPBAP - Zook
+
+/characters/test:
+  controller: CharactersController
+  action: test
+  title: UBAPBAP - Kitsu
+### ### ###
+
+### ITEMS ###
+/items/heart_bag:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Heart bag
+
+/items/boots:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Boots
+
+/items/teeth:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Teeth
+
+/items/spike_armor:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Spike armor
+
+/items/sword:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Sword
+
+/items/headband:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Headbands
+
+/items/sunglasses:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Sunglasses
+
+/items/banana:
+  controller: ItemsController
+  action: Item
+  title: UBAPBAP - Banana
 ### ### ###

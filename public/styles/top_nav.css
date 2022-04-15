@@ -1,0 +1,80 @@
+.top-nav {
+    height: 60px;
+}
+.top-nav .top-nav-container {
+    font-size: 1.4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--top-nav-bg-color);
+    color: #fff;
+    z-index: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid var(--nav-border-color);
+    box-sizing: content-box;
+    transition: transform .2s ease-in;
+}
+.top-nav .top-nav-container .logo-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 16px;
+    height: 100%;
+    width: 240px;
+    border-right: 1px solid var(--nav-border-color);
+}
+.top-nav .top-nav-container .logo-nav img{
+    /* margin-left: 36px; */
+}
+
+.top-nav .top-nav-container .top-nav-right{
+    padding-right: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-top-settings-container {
+    position: relative;
+    margin-left: 16px;
+}
+.nav-top-settings-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+.nav-top-settings-icon:hover {
+    cursor: pointer;
+    background-color: #222238;
+}
+.nav-top-settings-icon svg {
+    width: 14px;
+    height: 14px;
+}
+.btn-blue {
+    border-color: #3273fa;
+    background-color: #3273fa;
+}
+.btn-blue:hover {
+    border-color: #3250fa;
+    background-color: #3250fa;
+}
+.btn-blue, .btn-common, .btn-dark, .btn-gray, .btn-light-blue, .btn-red, .btn-transparent {
+    padding: 0 15px;
+    min-width: 78px;
+    min-height: 36px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
