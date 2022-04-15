@@ -87,15 +87,11 @@
                 <div class="side-nav_footer">
                     <div class="disclaimer">
                         <div class="disclaimer-title">UBAPBAP ©</div>
-<<<<<<< HEAD
-                        <span>ubapbap isn't endorsed by bapbap.gg.<br><br><br>If you'd like to contribute to this website in terms of build, tierlist or anything else, feel free to contact Playfade#7683 on discord.<br>Source code: <a href="https://gitlab.com/MoulinLouis/ubapbap">Gitlab ubapbap</a></span>
-=======
                         <span>
                             ubapbap isn't endorsed by bapbap.gg.<br><br>
                             If you'd like to contribute to this website in terms of build, tierlist or anything else, feel free to contact Playfade#7683 on discord.<br><br>
                             Source code: <a href="https://gitlab.com/MoulinLouis/ubapbap" target="_blank">Gitlab ubapbap</a>
                         </span>
->>>>>>> 90337bf2af7070bb5a56e84857e9f564ed2d20c4
                     </div>
                 </div>
             </div>
