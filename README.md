@@ -6,7 +6,26 @@ Site that list informations about the game bapbap.gg
 
 ## Getting Started
 
-Go to [incoming url](null)
+Go to [https://ubap.jacques-curtis.fr/]((https://ubap.jacques-curtis.fr/))
+
+## What's done ?
+
+ubapbap provide :
+
+- all characters datas
+  - stats (hp/speed)
+  - informations about all spells
+  - datas (games, winrate, kills, damages...) from differents playtest/ranked sessions
+  - builds from best players
+  - good / bad matchups
+  - good synergies
+
+## What's todo ?
+
+- Finish all items datas
+- Tierlist from differents good players
+- Leaderboard (waiting for bapbap.gg API)
+- Any other ideas you might have (contact me on discord)
 
 ## The game
 
@@ -15,4 +34,4 @@ Go to [incoming url](null)
 
 ## Contributors
 
-- **Louis Moulin** - *Travail Initial* - [MoulinLouis](https://github.com/MoulinLouis)
+- **Playfade** - *Initial work* - [MoulinLouis](https://github.com/MoulinLouis)
