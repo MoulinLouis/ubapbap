@@ -95,14 +95,14 @@ switch(currentCharName) {
                 avg_dmg: Math.round(14513.61214 * 100) / 100,
             },
             builds: {
-                optimal_build: ["heart_bag", "teeth", "headband"],
-                core_items: ["heart_bag", "teeth"],
-                good_items: ["headband", "boots", "spike_armor", "banana"],
-                trash_items: ["sword", "sunglasses"]
+                optimal_build: ["heart_bag", "boots", "spike_armor"],
+                core_items: ["heart_bag", "boots"],
+                good_items: ["spike_armor", "headband", "banana", "sword", "sunglasses"],
+                trash_items: ["teeth"]
             },
             matchups: {
                 good: [],
-                bad: [],
+                bad: [["sashimi", ""], ["skinny", ""], ["froggy", ""]],
                 synergy: []
             },
             spell_m1: "<h3><strong>PUNCH</strong></h3><strong>Punch for a 3-hit combo.</strong><br>Damage : 170 per punch",
@@ -110,6 +110,7 @@ switch(currentCharName) {
             spell_space: "<h3><strong>JUMP POUND</strong></h3><strong>Jump to a location. Apply knock up on land.</strong><br>Damage : 250<br>CD : 6 seconds",
             spell_e: "<h3><strong>RAGE</strong></h3><strong>Activate your rage potion to become stronger and faster.</strong><br>Duration : 10 seconds<br>HP Increase : 400<br>Damage Increase : 200<br>Atk spd Increase : 25%<br>Speed increase : 80<br>CD : 20 seconds"
         }
+        document.getElementById('whodidit').innerHTML = "Currently made by tado"
         break;
     case "froggy":
         currentChar = {
@@ -364,12 +365,6 @@ switch(currentCharName) {
                 avg_dmg: Math.round(12144.18936 * 100) / 100,
             },
             builds: {
-                optimal_build: ["heart_bag", "sunglasses", "spike_armor"],
-                core_items: ["heart_bag", "sunglasses"],
-                good_items: ["spike_armor", "headband", "boots", "banana"],
-                trash_items: ["sword", "teeth"]
-            },
-            builds: {
                 optimal_build: ["sword", "headband", "heart_bag"],
                 core_items: ["sword", "headband"],
                 good_items: ["teeth", "banana", "boots", "sunglasses", "heart_bag"],
@@ -423,21 +418,24 @@ switch(currentCharName) {
                 avg_dmg: Math.round(12144.18936 * 100) / 100,
             },
             builds: {
-                optimal_build: [],
-                core_items: [],
-                good_items: [],
-                trash_items: []
+                optimal_build: ["sword", "banana", "sunglasses"],
+                core_items: ["sword", "banana"],
+                good_items: ["sunglasses", "teeth", "heart_bag", "headband"],
+                trash_items: ["boots", "spike_armor"]
             },
+            good: [["sashimi", ""]],
+
             matchups: {
-                good: [],
-                bad: [],
-                synergy: []
+                good: [["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["chuck", "Bait his space and he's dead (+ worst character in the game)"], ["kiddo", "Can't iframe so free kill"], ["anna", "Can't iframe so free kill"], ["skinny", "You can predict where h's coming from and it's hard for him to iframe with his E"]],
+                bad: [["froggy", "Make him use all his abilities and then hit him with triple Q to kill him instantly"], ["sashimi", "TP away when you're stunned (you can TP while stunned which is... OP"], ["zook", "Can clear your clone easily. Only put clones when he already jumped so you can triple Q"]],
+                synergy: [["sashimi", "Can help you to setup your 2 clones and triple Q a team"], ["zook", "Cool to slow people with ult to setup more easily the triple Q"], ["kitsu", "A lots of root with her ult"]]
             },
             spell_m1: "<h3><strong>DIGITAL PROJECTILE</strong></h3><strong>Shoot a digital wave</strong><br>Damage : 180",
             spell_a: "<h3><strong>DIGITAL BEAM</strong></h3><strong>Cast a big digital wave. Apply root on hit.</strong><br>Damage : 300<br>CD : 6 seconds",
             spell_space: "<h3><strong>DIGITAL CLONE V1.0</strong></h3><strong>Teleport to a location and create a clone at your original position. Recast to swap positions with your clone.</strong><br>Duration : 4 seconds<br>CD : 6 seconds",
             spell_e: "<h3><strong>DIGITAL CLONE V2.0</strong></h3><strong>Create a stronger clone at a location, with half your hp. Recast to swap positions with your clone.</strong><br>Duration : 7 seconds<br>CD : 8 seconds"
         }
+        document.getElementById('whodidit').innerHTML = "Currently made by tado"
         break;
     case "zook":
         currentChar = {
