@@ -81,7 +81,7 @@ const items = {
             },
             hp: {
                 name: "Health",
-                type: "%",
+                type: "",
                 common: 50,
                 uncommon: 100,
                 rare: 150,
