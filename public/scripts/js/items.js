@@ -224,7 +224,6 @@ const chars = {
 
 const matchupElement = {
     html: function(char, desc) {
-        console.log(char)
         return "<a href='/characters/" + char.name.toLowerCase() + "' class='character-matchup'>" +
             "<div class='character-face'>" +
                 "<img src='/public/images/characters/" + char.name.toLowerCase() + ".png' alt=''>" +
