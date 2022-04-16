@@ -141,3 +141,27 @@ a, a:hover, a:active, a:focus {
     font-size: 1.2rem;
     color: #5f5f7b;
 }
+.side-nav-container ::-webkit-scrollbar {
+    background-color: hsla(0,0%,100%,0);
+    width: 8px;
+    height: 8px;
+}
+.side-nav-container ::-webkit-scrollbar-thumb {
+    background-color: rgba(205,220,254,.25);
+    border-radius: 4px;
+}
+.side-nav-container ::-webkit-scrollbar-track {
+    background-color: #11112a;
+}
+body::-webkit-scrollbar {
+    background-color: hsla(0,0%,100%,0);
+    width: 8px;
+    height: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(205,220,254,.25);
+    border-radius: 4px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #11112a;
+}
