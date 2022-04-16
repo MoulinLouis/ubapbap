@@ -325,7 +325,7 @@ switch(currentCharName) {
             spell_m1: "<h3><strong>POWER FIST</strong></h3><strong>Do a 3-hit punch combo.</strong><br>Damage : 220 per attack<br>3rd atk damage : 300",
             spell_a: "<h3><strong>BAP CLAP</strong></h3><strong>Clap ennemies in front of you. Apply stun on hit.</strong><br>Damage : 250<br>CD : 7 seconds",
             spell_space: "<h3><strong>DIVE ROLL</strong></h3><strong>Charge a dash move, traveling longer based on how much is charged. Apply slow on hit.</strong><br>Damage : 200<br>CD : 8 seconds",
-            spell_e: "<h3><strong>xxx</strong></h3><strong>xxx</strong><br>xxx"
+            spell_e: "<h3><strong>DROP SHOCKWAVE</strong></h3><strong>Jump in the air and deal damage when lading. Apply knock up on hit.</strong><br>Damage : 350<br>CD : 24 seconds"
         }
         break;
     case "skinny":
