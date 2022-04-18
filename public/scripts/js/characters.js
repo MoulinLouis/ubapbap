@@ -107,7 +107,7 @@ switch(currentCharName) {
             },
             spell_m1: "<h3><strong>PUNCH</strong></h3><strong>Punch for a 3-hit combo.</strong><br>Damage : 170 per punch",
             spell_a: "<h3><strong>CHUCK PUNCH</strong></h3><strong>Throw a powerful punch. Apply stun on hit.</strong><br>Damage : 320<br>CD : 5 seconds",
-            spell_space: "<h3><strong>JUMP POUND</strong></h3><strong>Jump to a location. Apply knock up on land.</strong><br>Damage : 250<br>CD : 6 seconds",
+            spell_space: "<h3><strong>JUMP POUND</strong></h3><strong>Jump to a location. Apply knock up on land.</strong><br>Damage : 250<br>CD : 6 seconds<br>IFrame : yes",
             spell_e: "<h3><strong>RAGE</strong></h3><strong>Activate your rage potion to become stronger and faster.</strong><br>Duration : 10 seconds<br>HP Increase : 400<br>Damage Increase : 200<br>Atk spd Increase : 25%<br>Speed increase : 80<br>CD : 20 seconds"
         }
         document.getElementById('whodidit').innerHTML = "Currently made by tado"
@@ -160,8 +160,8 @@ switch(currentCharName) {
                 synergy: []
             },
             spell_m1: "<h3><strong>SWORD SLASH</strong></h3><strong>Slash for a 3-hit combo. Apply slow on the 3rd slash.</strong><br>Damage : 140 per attack<br>3rd atk damage : 200",
-            spell_a: "<h3><strong>STICKY TONGUE</strong></h3><strong>Pull yourself with your tongue. Apply slow on hit.</strong><br>CD : 5 seconds",
-            spell_space: "<h3><strong>SPIN JUMP</strong></h3><strong>Leap to a location and deal damage on impact.</strong><br>Damage : 180<br>CD : 6 seconds",
+            spell_a: "<h3><strong>STICKY TONGUE</strong></h3><strong>Pull yourself with your tongue. Apply slow on hit.</strong><br>CD : 5 seconds<br>IFrame : yes",
+            spell_space: "<h3><strong>SPIN JUMP</strong></h3><strong>Leap to a location and deal damage on impact.</strong><br>Damage : 180<br>CD : 6 seconds<br>IFrame : yes",
             spell_e: "<h3><strong>SLIDE N' DICE</strong></h3><strong>Teleport and deal high damage in a blink.</strong><br>Damage : 300<br>CD : 14 seconds"
         }
         break;
@@ -271,7 +271,7 @@ switch(currentCharName) {
             spell_m1: "<h3><strong>ENERGY ARROW</strong></h1><strong>Shoot an energy arrow.</strong><br>Damage : 200",
             spell_a: "<h3><strong>CHARGED ARROW</strong></h1><strong>Shoot a charged arrow at a longer range. Apply slow on hit.</strong><br>Damage : 60 every 0.5s<br>Base CD : 6 seconds",
             spell_space: "<h3><strong>RECOIL BLAST</strong></h1><strong>Shoot the ground to jump away. Apply knock up on hit.</strong><br>Damage : 120<br>CD : 6 seconds",
-            spell_e: "<h3><strong>ARROW MISSILE</strong></h1><strong>Shoot a big energy arrow that pierces obstacles and enemies. Apply slow on hit</strong><br>Damage : 420<br>Base CD : 20 seconds"
+            spell_e: "<h3><strong>ARROW MISSILE</strong></h1><strong>Shoot a big energy arrow that pierces obstacles and enemies. Apply slow on hit</strong><br>Damage : 420<br>Base CD : 20 seconds<br>IFrame : yes"
         }
         document.getElementById('whodidit').innerHTML = "Currently made by Darkni"
         break;
@@ -325,7 +325,7 @@ switch(currentCharName) {
             spell_m1: "<h3><strong>POWER FIST</strong></h3><strong>Do a 3-hit punch combo.</strong><br>Damage : 220 per attack<br>3rd atk damage : 300",
             spell_a: "<h3><strong>BAP CLAP</strong></h3><strong>Clap ennemies in front of you. Apply stun on hit.</strong><br>Damage : 250<br>CD : 7 seconds",
             spell_space: "<h3><strong>DIVE ROLL</strong></h3><strong>Charge a dash move, traveling longer based on how much is charged. Apply slow on hit.</strong><br>Damage : 200<br>CD : 8 seconds",
-            spell_e: "<h3><strong>DROP SHOCKWAVE</strong></h3><strong>Jump in the air and deal damage when lading. Apply knock up on hit.</strong><br>Damage : 350<br>CD : 24 seconds"
+            spell_e: "<h3><strong>DROP SHOCKWAVE</strong></h3><strong>Jump in the air and deal damage when lading. Apply knock up on hit.</strong><br>Damage : 350<br>CD : 24 seconds<br>IFrame : yes"
         }
         break;
     case "skinny":

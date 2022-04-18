@@ -36,8 +36,6 @@ let currentItemName = window.location.pathname.split("/").pop()
 
 currentItem = items[currentItemName]
 
-console.log(currentItem)
-
 const elItemName = document.getElementById('item-name')
 const elItemDesc = document.getElementById('item-desc')
 const elItemImage = document.getElementById('item-image')
