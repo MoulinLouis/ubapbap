@@ -162,7 +162,7 @@ switch(currentCharName) {
             spell_m1: "<h3><strong>SWORD SLASH</strong></h3><strong>Slash for a 3-hit combo. Apply slow on the 3rd slash.</strong><br>Damage : 140 per attack<br>3rd atk damage : 200",
             spell_a: "<h3><strong>STICKY TONGUE</strong></h3><strong>Pull yourself with your tongue. Apply slow on hit.</strong><br>CD : 5 seconds",
             spell_space: "<h3><strong>SPIN JUMP</strong></h3><strong>Leap to a location and deal damage on impact.</strong><br>Damage : 180<br>CD : 6 seconds",
-            spell_e: "<h3><strong>xxx</strong></h3><strong>xxx</strong><br>xxx"
+            spell_e: "<h3><strong>SLIDE N' DICE</strong></h3><strong>Teleport and deal high damage in a blink.</strong><br>Damage : 300<br>CD : 14 seconds"
         }
         break;
     case "kiddo":
