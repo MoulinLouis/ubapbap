@@ -2,7 +2,7 @@
 let currentCharName = window.location.pathname.split("/").pop()
 
 let currentChar;
-
+currentCharName = "kitsu"
 switch(currentCharName) {
     case "anna":
         currentChar = {

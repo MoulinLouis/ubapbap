@@ -23,6 +23,7 @@ selectStats.addEventListener('change', loadStats)
 // selectBuilds.addEventListener('change', loadBuilds)
 
 function loadStats() {
+    console.log(currentChar)
     console.log(currentChar.stats_trio)
     if(selectStats.value == 1) loadStat(currentChar.stats_trio_1)
     if(selectStats.value == 2) loadStat(currentChar.stats_duo_1)
@@ -96,6 +97,7 @@ function loadAll(char) {
     setSpellTooltip()
     loadBuilds()
     loadMatchups()
+
 }
 
 $(document).ready(function(){

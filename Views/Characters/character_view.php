@@ -182,7 +182,7 @@
 
 <script src="<?php App\Core\View::getAssets("libraries/protip.min.js")?>"></script>
 <script src="<?php App\Core\View::getAssets("characters.js")?>"></script>
-<script src="<?php App\Core\View::getAssets("items.js")?>"></script>
+<!-- <script src="<?php App\Core\View::getAssets("items.js")?>"></script> -->
 
 <script src="<?php App\Core\View::getAssets("script.js")?>"></script>
 
