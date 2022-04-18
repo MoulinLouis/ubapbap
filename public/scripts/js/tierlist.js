@@ -43,19 +43,19 @@ const tierlist = {
         desc: "I love bapbap",
         ranks: {
             s: {
-                characters: ["teevee"],
+                characters: ["froggy", "sashimi", "anna"],
                 color: "rgb(255, 127, 127)"
             },
             a: {
-                characters: ["froggy", "sashimi", "anna"],
+                characters: ["teevee", "kitsu", "kiddo"],
                 color: "rgb(255, 191, 127)"
             },
             b: {
-                characters: ["kiddo", "kitsu"],
+                characters: ["zook", "skinny"],
                 color: "rgb(255, 223, 127)"
             },
             c: {
-                characters: ["zook", "skinny"],
+                characters: [],
                 color: "#FFFF7F"
             },
             d: {
