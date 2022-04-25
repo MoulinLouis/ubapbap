@@ -18,6 +18,7 @@ class BaseController {
 
 	public function itemsAction(){
 		$view = new View("Items/items", "base");
+		$view->assign('currentItem', basename($_SERVER["REQUEST_URI"]));
 	}
 
 	public function tierlistAction(){

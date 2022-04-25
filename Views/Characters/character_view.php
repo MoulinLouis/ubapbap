@@ -1,10 +1,4 @@
-<link rel="stylesheet" href="<?php App\Core\View::getAssets("characters.css")?>">
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("libraries/protip.min.css")?>">
-
-<style>
-
-
-</style>
 
 <div class="character-profile-main-page <?= $currentChar ?>-border">
     <div class="character-profile-content-container">

@@ -7,13 +7,6 @@
     align-items: center;
     flex-direction: column;
 }
-.characters-container {
-    grid-template-columns: repeat(auto-fill,minmax(80px,1fr)) !important;
-    border: 0px !important;
-    background-color: transparent !important;
-    height: 170px !important;
-    align-items: center !important;
-}
 .char-btn {
     margin: 0 12px;
     border-radius: 5px;
@@ -65,10 +58,7 @@
 
 <div class="characters-home-page">
     <div class="character-home">
-        <div class="title-header">
-            <h1 class="character-list">Bapbap champions list</h1>
-            <!-- <h2 class="subtitle">Find all the characters informations on bapbap</h2> -->
-        </div>
+
         <div class="characters-container" id="char-containers">
 
             <!-- <div class="char-btn animate__animated animate__fadeIn kitsu">

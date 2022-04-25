@@ -31,11 +31,12 @@
 }
 .characters-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(90px,1fr));
     grid-gap: 12px 12px;
     padding: 20px;
-    border: 1px solid #2c2c40;;
-    background-color: #17172e;;
+    margin: 10px;
+    height: 170px !important;
+    align-items: center !important;
 }
 .character-link {
     margin: 0 auto;
@@ -55,9 +56,6 @@
     position: relative;
     border: 1px solid #2c2c40;
     overflow: hidden;
-}
-.image-wrapper:hover {
-    /* outline: -webkit-focus-ring-color auto 1px; */
 }
 .image-wrapper-char img {
     -webkit-transform: rotate(15deg) scale(1.4);

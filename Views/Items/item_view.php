@@ -7,6 +7,41 @@
     border: 2px solid transparent;
     background: var(--sword-color) border-box;
 }
+.heart_bag-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--heart_bag-color) border-box;
+}
+.sunglasses-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--sunglasses-color) border-box;
+}
+.teeth-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--teeth-color) border-box;
+}
+.headband-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--headband-color) border-box;
+}
+.boots-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--boots-color) border-box;
+}
+.banana-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--banana-color) border-box;
+}
+.spike_armor-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--spike_armor-color) border-box;
+}
 </style>
 
 <div class="character-profile-main-page">
