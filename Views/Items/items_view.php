@@ -66,7 +66,9 @@
     background: var(--zook-color) border-box;
     -webkit-mask-composite: xor;
 }
-
+.character-link {
+    padding: 12px 10px;
+}
 
 
 
