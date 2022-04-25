@@ -14,6 +14,19 @@
     --side-nav-bg-color: #17172e;
     --side-nav-text-color: #bbbedb;
     --nav-border-color: #31334a;
+
+    --anna-color: linear-gradient(to left,#199be6,#2cc9e5);
+    --chuck-color: linear-gradient(to left,#f17d4f,#ff9f50);
+    --froggy-color: linear-gradient(to left,#199be6,#2cc9e5);
+    --kiddo-color: linear-gradient(to left,#E61952,#E52C80);
+    --kitsu-color: linear-gradient(to left,#e619a9,#f830dd);
+    --sashimi-color: linear-gradient(to left,#17d17a,#28d182);
+    --skinny-color: linear-gradient(to left,#e619a9,#f830dd);
+    --teevee-color: linear-gradient(to left,#E61952,#E52C80);
+    --zook-color: linear-gradient(to left,#f17d4f,#ff9f50);
+
+    --sword-color: linear-gradient(to right,#7fffdd, #09daa2);
+
 }
 * {
     box-sizing: border-box;

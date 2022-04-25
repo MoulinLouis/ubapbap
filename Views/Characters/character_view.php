@@ -1,17 +1,21 @@
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("characters.css")?>">
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("libraries/protip.min.css")?>">
 
-<div class="character-profile-main-page">
+<style>
+
+
+</style>
+
+<div class="character-profile-main-page <?= $currentChar ?>-border">
     <div class="character-profile-content-container">
         <div class="character-profile-container page_build" style="background-repeat: no-repeat; background-size: 1014px 570px; background-position: 50% -60px; background-image: radial-gradient(400px 200px at 60% 34%, rgba(7, 7, 32, 0) 0%, rgb(7, 7, 32) 100%), linear-gradient(90deg, rgb(7, 7, 32) 0%, rgba(7, 7, 32, 0.6) 100%), 
         url('<?php App\Core\View::getAssets("characters/". $currentChar ."_bg.png")?>');">
-            
             <div>
                 <div class="character-header">
                     <div class="character-header-wrapper">
-                        <div class="character-image-container" style="border-color: rgb(50, 115, 250);">
+                        <div class="character-image-container <?= $currentChar ?>-avatar-border">
                             <div class="character-image-border">
-                                <img src="<?php App\Core\View::getAssets("characters/". $currentChar .".png")?>" alt=". $currentChar ." class="character-image">
+                                <img src="<?php App\Core\View::getAssets("characters/". $currentChar .".png")?>" alt="<?= $currentChar ?>" class="character-image">
                             </div>
                         </div>
                         <div class="character-header-info">

@@ -469,3 +469,133 @@ div.custom-select {
 .character-description {
     font-size: 12px;
 }
+
+.anna {
+    background: var(--anna-color);
+}
+.chuck {
+    background: var(--chuck-color);
+}
+.froggy {
+    background: var(--froggy-color);
+}
+.kiddo {
+    background: var(--kiddo-color);
+}
+.kitsu {
+    background: var(--kitsu-color);
+}
+.sashimi {
+    background: var(--sashimi-color);
+}
+.skinny {
+    background: var(--skinny-color);
+}
+.teevee {
+    background: var(--teevee-color);
+}
+.zook {
+    background: var(--zook-color);
+}
+
+.anna-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--anna-color) 1;
+}
+.chuck-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--chuck-color) 1;
+}
+.froggy-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--froggy-color) 1;
+}
+.kiddo-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--kiddo-color) 1;
+}
+.kitsu-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--kitsu-color) 1;
+}
+.sashimi-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--sashimi-color) 1;
+}
+.skinny-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--skinny-color) 1;
+}
+.teevee-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--teevee-color) 1;
+}
+.zook-border {
+    border-width: 4px;
+    border-top: solid;
+    border-image: var(--zook-color) 1;
+}
+
+
+.anna-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--anna-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.chuck-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--chuck-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.froggy-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--froggy-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.kiddo-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--kiddo-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.kitsu-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--kitsu-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.sashimi-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--sashimi-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.skinny-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--skinny-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.teevee-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--teevee-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.zook-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--zook-color) border-box;
+    -webkit-mask-composite: xor;
+}

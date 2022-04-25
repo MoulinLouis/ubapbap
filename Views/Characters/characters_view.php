@@ -9,6 +9,10 @@
 }
 .characters-container {
     grid-template-columns: repeat(auto-fill,minmax(80px,1fr)) !important;
+    border: 0px !important;
+    background-color: transparent !important;
+    height: 170px !important;
+    align-items: center !important;
 }
 .char-btn {
     margin: 0 12px;
@@ -55,40 +59,36 @@
     border: 4px solid #fff;
     border-radius: 3px;
 }
-.kitsu {
-    background: linear-gradient(to left,#e619a9,#f830dd);
-}
-.anna {
-    background: linear-gradient(to left,#199be6,#2cc9e5);
-}
+
 
 </style>
 
 <div class="characters-home-page">
     <div class="character-home">
         <div class="title-header">
-            <h1 class="character-list">Bapbap champions search</h1>
-            <h2 class="subtitle">Find all the characters informations on bapbap</h2>
+            <h1 class="character-list">Bapbap champions list</h1>
+            <!-- <h2 class="subtitle">Find all the characters informations on bapbap</h2> -->
         </div>
-        <div class="characters-container" id="char-containerss">
+        <div class="characters-container" id="char-containers">
 
-            <div class="char-btn animate__animated animate__fadeIn kitsu">
-                <a href="?c=kitsu"><img class="char-btn-img noselect" src="/public/images/characters/portraits/kitsu.png"></a>
+            <!-- <div class="char-btn animate__animated animate__fadeIn kitsu">
+                <a href="/characters/kitsu"><img class="char-btn-img noselect" src="/public/images/characters/portraits/kitsu.png"></a>
             </div>
             <div class="char-btn animate__animated animate__fadeIn anna">
-                <a href="?c=anna"><img class="char-btn-img noselect" src="/public/images/characters/portraits/anna.png"></a>
-            </div>
+                <a href="/characters/anna"><img class="char-btn-img noselect" src="/public/images/characters/portraits/anna.png"></a>
+            </div> -->
 
 
         </div>
 
         <?php 
-        if(!empty($_GET['c'])) {
-            $currentChar = $_GET['c'];
+        $actual_link = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $character = basename($actual_link);
+        if(!empty($character) && $character != "characters") {
+            $currentChar = $character;
             include('Views/Characters/character_view.php');
         }
-        
-        // include('Views/Characters/character_view.php') ?>
+        ?>
 
 
     </div>
@@ -97,38 +97,35 @@
     
 </script>
 <script src="<?php App\Core\View::getAssets("items.js")?>"></script>
-<script src="<?php App\Core\View::getAssets("characters.js")?>"></script>
+<!-- <script src="<?php App\Core\View::getAssets("characters.js")?>"></script> -->
 
 <script>
-    $('.char-btn').on("click", function(e) {
-        $('.selected').removeClass('selected');
-
-        $(this).addClass("selected")
-
-
-    });
-
-    var path = window.location.href;
-    $('.char-btn a').each(function() {
-        if (path.indexOf(this.href) >= 0) {
-            $(this).parent().addClass('selected');
-        }
-    });
-
-
-
     const elCharsContainer = document.getElementById("char-containers")
     var getUrl = window.location;
     var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
     $.each(chars, function( index, value ) {
-        let html = "<a href='/characters/" + index + "' class='character-link'>" +
-                        "<div class='image-wrapper-char'>" +
-                            "<img style='width: 100%' src='" + getUrl.protocol + "//" + getUrl.host + "/public/images/characters/" + index + ".png' alt=''>" +
-                        "</div>" +
-                        "<div class='character-name'>" + value.name +"</div>" +
-                   "</a>"
-        // elCharsContainer.innerHTML += html
+        let html = `<div class="char-btn animate__animated animate__fadeIn ${index}">
+                        <a href="/characters/${index}"><img class="char-btn-img noselect" src="/public/images/characters/portraits/${index}.png"></a>
+                    </div>`
+
+        // let html = "<a href='/characters/" + index + "' class='character-link'>" +
+        //                 "<div class='image-wrapper-char'>" +
+        //                     "<img style='width: 100%' src='" + getUrl.protocol + "//" + getUrl.host + "/public/images/characters/" + index + ".png' alt=''>" +
+        //                 "</div>" +
+        //                 "<div class='character-name'>" + value.name +"</div>" +
+        //            "</a>"
+        elCharsContainer.innerHTML += html
+    });
+
+
+    var path = window.location.href;
+    $('.char-btn a').each(function() {
+        if (path.indexOf(this.href) >= 0) {
+            $(this).parent().addClass('selected');
+        } else {
+            $(this).parent().removeClass('selected');
+        }
     });
 
     $(function() {

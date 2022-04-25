@@ -1,13 +1,17 @@
 
 let currentCharName = window.location.pathname.split("/").pop()
+// let currentChar;
+// let url = new URL(window.location)
+// let params = new URLSearchParams(url.search);
+// let currentCharName = params.get('c') // 'mdn query string'
+// console.log(currentCharName)
 
-let currentChar;
-currentCharName = "kitsu"
+// currentCharName = "kitsu"
 switch(currentCharName) {
     case "anna":
         currentChar = {
             name: "Anna",
-            desc: "",
+            desc: "The gunslinger",
             hp: 1600,
             speed: 380,
             stats_trio_1: {
@@ -168,7 +172,7 @@ switch(currentCharName) {
     case "kiddo":
         currentChar = {
             name: "Kiddo",
-            desc: "",
+            desc: "The firebender",
             hp: 1600,
             speed: 360,
             stats_trio_1: {
@@ -278,7 +282,7 @@ switch(currentCharName) {
     case "sashimi":
         currentChar = {
             name: "Sashimi",
-            desc: "You won't move",
+            desc: "The fish that fish",
             hp: 2600,
             speed: 360,
             stats_trio_1: {
@@ -384,7 +388,7 @@ switch(currentCharName) {
     case "teevee":
         currentChar = {
             name: "Teevee",
-            desc: "I am op",
+            desc: "I am op (not anymore)",
             hp: 1600,
             speed: 380,
             stats_trio_1: {

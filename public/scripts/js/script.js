@@ -23,8 +23,6 @@ selectStats.addEventListener('change', loadStats)
 // selectBuilds.addEventListener('change', loadBuilds)
 
 function loadStats() {
-    console.log(currentChar)
-    console.log(currentChar.stats_trio)
     if(selectStats.value == 1) loadStat(currentChar.stats_trio_1)
     if(selectStats.value == 2) loadStat(currentChar.stats_duo_1)
     if(selectStats.value == 3) loadStat(currentChar.stats_trio_2)
@@ -86,7 +84,6 @@ function loadMatchups() {
 
 function generateMatchup(element, matchupsArray) {
     matchupsArray.forEach(function (item, index) {
-        console.log(item)
         element.innerHTML += matchupElement.html(chars[item[0]], item[1])
     });
 }

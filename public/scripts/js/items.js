@@ -2,7 +2,7 @@ const items = {
     sword: {
         name: "Sword",
         desc: "+ damage",
-        imageUrl: "/public/images/items/sword2.png",
+        imageUrl: "/public/images/items/sword.png",
         stats: {
             damage: {
                 name: "Damage",
@@ -18,7 +18,7 @@ const items = {
     heart_bag: {
         name: "Heart bag",
         desc: "+ hp <br>+ hp regen",
-        imageUrl: "/public/images/items/heart2.png",
+        imageUrl: "/public/images/items/heart.png",
         stats: {
             hp: {
                 name: "Health",
@@ -43,7 +43,7 @@ const items = {
     sunglasses: {
         name: "Sunglasses",
         desc: "% crit chance<br>% crit damage",
-        imageUrl: "/public/images/items/crit2.png",
+        imageUrl: "/public/images/items/crit.png",
         stats: {
             crit_chance: {
                 name: "Critical chance",
@@ -68,7 +68,7 @@ const items = {
     teeth: {
         name: "Teeth",
         desc: "% life steal<br>+ hp",
-        imageUrl: "/public/images/items/teeth2.png",
+        imageUrl: "/public/images/items/teeth.png",
         stats: {
             life_steal: {
                 name: "Life steal",
@@ -118,7 +118,7 @@ const items = {
     boots: {
         name: "Boots",
         desc: "+ speed<br>+ hp",
-        imageUrl: "/public/images/items/boots2.png",
+        imageUrl: "/public/images/items/boots.png",
         stats: {
             move_speed: {
                 name: "Movement speed",
@@ -168,7 +168,7 @@ const items = {
     spike_armor: {
         name: "Spike armor",
         desc: "% reflect dmg<br>+ hp",
-        imageUrl: "/public/images/items/thorn2.png",
+        imageUrl: "/public/images/items/thorn.png",
         stats: {
             reflect_damage: {
                 name: "Reflect damages",
