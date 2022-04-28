@@ -14,6 +14,26 @@
     --side-nav-bg-color: #17172e;
     --side-nav-text-color: #bbbedb;
     --nav-border-color: #31334a;
+
+    --anna-color: linear-gradient(to left,#199be6,#2cc9e5);
+    --chuck-color: linear-gradient(to left,#f17d4f,#ff9f50);
+    --froggy-color: linear-gradient(to left,#199be6,#2cc9e5);
+    --kiddo-color: linear-gradient(to left,#E61952,#E52C80);
+    --kitsu-color: linear-gradient(to left,#e619a9,#f830dd);
+    --sashimi-color: linear-gradient(to left,#17d17a,#28d182);
+    --skinny-color: linear-gradient(to left,#e619a9,#f830dd);
+    --teevee-color: linear-gradient(to left,#E61952,#E52C80);
+    --zook-color: linear-gradient(to left,#f17d4f,#ff9f50);
+
+    --sword-color: linear-gradient(to right,#7fffdd, #09daa2);
+    --heart_bag-color: linear-gradient(to right,#F13C44, #d2343c);
+    --sunglasses-color: linear-gradient(to right,#F0FA4A, #cfd63f);
+    --teeth-color: linear-gradient(to right,#FFC055, #d5a046);
+    --headband-color: linear-gradient(to right,#F85C11, #d44d0f);
+    --boots-color: linear-gradient(to right,#F5984D, #d68543);
+    --banana-color: linear-gradient(to right,#D1B7A1, #a89482);
+    --spike_armor-color: linear-gradient(to right,#2D87EB, #2571c8);
+
 }
 * {
     box-sizing: border-box;
