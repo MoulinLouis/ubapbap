@@ -24,6 +24,11 @@
   action: Leaderboard
   title: UBAPBAP - Leaderboard
 
+/patch-notes:
+  controller: BaseController
+  action: Patchnotes
+  title: UBAPBAP - Patch notes
+
 /about:
   controller: BaseController
   action: About

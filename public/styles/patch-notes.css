@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/* Headings */
+h1, .uk-h1,
+h2, .uk-h2,
+h3, .uk-h3,
+h4, .uk-h4,
+h5, .uk-h5,
+h6, .uk-h6 {
+  margin: 0 0 20px 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  color: #333;
+  text-transform: none;
+  letter-spacing: 2px;
+}
+
+/* Sizes */
+h1, .uk-h1 {
+  font-size: 3.6rem;
+  line-height: 1.2;
+}
+
+h2, .uk-h2 {
+  font-size: 2.6rem;
+  line-height: 1.3;
+}
+
+h3, .uk-h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h4, .uk-h4 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+h5, .uk-h5 {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h6, .uk-h6 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Lists ========================================================================== */
+ul,
+ol {
+  padding-left: 30px;
+}
+
+/* * Reset margin for nested lists */
+ul > li > ul,
+ul > li > ol,
+ol > li > ol,
+ol > li > ul {
+  margin: 0;
+}
+
+/* Description lists  */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+
+/* Component: List */
+.uk-list {
+  padding: 0;
+  list-style: none;
+}
+
+/* Style */
+.uk-list > li:nth-child(n+2),
+.uk-list > li > ul {
+  margin-top: 8px;
+}
+
+
+
+
+/*  Component: Margin */
+/* Default */
+.uk-margin {
+  margin-bottom: 20px;
+}
+
+* + .uk-margin {
+  margin-top: 20px !important;
+}
+
+.uk-margin-top {
+  margin-top: 20px !important;
+}
+
+.uk-margin-bottom {
+  margin-bottom: 20px !important;
+}
+
+.uk-margin-left {
+  margin-left: 20px !important;
+}
+
+.uk-margin-right {
+  margin-right: 20px !important;
+}
+
+/* Small */
+.uk-margin-small {
+  margin-bottom: 10px;
+}
+
+* + .uk-margin-small {
+  margin-top: 10px !important;
+}
+
+.uk-margin-small-top {
+  margin-top: 10px !important;
+}
+
+.uk-margin-small-bottom {
+  margin-bottom: 10px !important;
+}
+
+.uk-margin-small-left {
+  margin-left: 10px !important;
+}
+
+.uk-margin-small-right {
+  margin-right: 10px !important;
+}
+
+/* Medium */
+.uk-margin-medium {
+  margin-bottom: 40px;
+}
+
+* + .uk-margin-medium {
+  margin-top: 40px !important;
+}
+
+.uk-margin-medium-top {
+  margin-top: 40px !important;
+}
+
+.uk-margin-medium-bottom {
+  margin-bottom: 40px !important;
+}
+
+.uk-margin-medium-left {
+  margin-left: 40px !important;
+}
+
+.uk-margin-medium-right {
+  margin-right: 40px !important;
+}
+
+/* Large */
+.uk-margin-large {
+  margin-bottom: 40px;
+}
+
+* + .uk-margin-large {
+  margin-top: 40px !important;
+}
+
+.uk-margin-large-top {
+  margin-top: 40px !important;
+}
+
+.uk-margin-large-bottom {
+  margin-bottom: 40px !important;
+}
+
+.uk-margin-large-left {
+  margin-left: 40px !important;
+}
+
+.uk-margin-large-right {
+  margin-right: 40px !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .uk-margin-large {
+    margin-bottom: 70px;
+  }
+  * + .uk-margin-large {
+    margin-top: 70px !important;
+  }
+  .uk-margin-large-top {
+    margin-top: 70px !important;
+  }
+  .uk-margin-large-bottom {
+    margin-bottom: 70px !important;
+  }
+  .uk-margin-large-left {
+    margin-left: 70px !important;
+  }
+  .uk-margin-large-right {
+    margin-right: 70px !important;
+  }
+}
+
+/* XLarge */
+.uk-margin-xlarge {
+  margin-bottom: 70px;
+}
+
+* + .uk-margin-xlarge {
+  margin-top: 70px !important;
+}
+
+.uk-margin-xlarge-top {
+  margin-top: 70px !important;
+}
+
+.uk-margin-xlarge-bottom {
+  margin-bottom: 70px !important;
+}
+
+.uk-margin-xlarge-left {
+  margin-left: 70px !important;
+}
+
+.uk-margin-xlarge-right {
+  margin-right: 70px !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .uk-margin-xlarge {
+    margin-bottom: 90px;
+  }
+  * + .uk-margin-xlarge {
+    margin-top: 90px !important;
+  }
+  .uk-margin-xlarge-top {
+    margin-top: 90px !important;
+  }
+  .uk-margin-xlarge-bottom {
+    margin-bottom: 90px !important;
+  }
+  .uk-margin-xlarge-left {
+    margin-left: 90px !important;
+  } 
+  .uk-margin-xlarge-right {
+    margin-right: 90px !important;
+  }
+}
+
+/* Component: Responsive */
+@media (min-width: 640px) {
+  .tm-form-contact .uk-form-label {
+    font-size: 1.5rem;
+  }
+  .tm-form-xlarge:not(textarea):not([multiple]):not([size]) {
+    height: 90px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  textarea.tm-form-xlarge {
+    padding: 35px;
+    height: 200px;
+  }
+  .tm-form-xlarge {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 960px) {
+  .tm-faq .uk-article,
+  .tm-faq .uk-list {
+    position: relative;
+    margin-left: 160px;
+  }
+  .tm-faq .uk-article:before,
+  .tm-faq .uk-list:before {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 6.6rem;
+    line-height: 1;
+    position: absolute;
+    top: -0;
+    left: -160px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    content: "Q";
+  }
+  .tm-timeline {
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    letter-spacing: 1px;
+  }
+  .tm-timeline * {
+    box-sizing: border-box;
+  }
+  .tm-timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(25% - 2px);
+    bottom: 0;
+    width: 4px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .tm-timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tm-timeline-entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+  }
+  .tm-timeline-entry:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .tm-timeline-entry .tm-timeline-time {
+    float: left;
+    width: 25%;
+    padding-right: 70px;
+    text-align: right;
+    position: relative;
+  }
+  .tm-timeline-entry .tm-timeline-time:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    background-color: #2196F3;
+    border-radius: 100%;
+    top: 0;
+    right: -14px;
+    z-index: 99;
+  }
+  .tm-timeline-entry .tm-timeline-time h4 {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .tm-timeline-entry .tm-timeline-body {
+    float: right;
+    width: 75%;
+    padding-left: 70px;
+    margin-top: -15px;
+  }
+}
