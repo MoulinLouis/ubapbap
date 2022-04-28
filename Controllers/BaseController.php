@@ -29,6 +29,10 @@ class BaseController {
 		$view = new View("leaderboard", "base");
 	}
 
+	public function patchnotesAction(){
+		$view = new View("patch-notes", "base");
+	}
+
 	public function aboutAction(){
 		$view = new View("about", "empty");
 	}
