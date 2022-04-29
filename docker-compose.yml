@@ -22,34 +22,34 @@ services:
     build: .docker/applications/php/
     container_name: php_web
     restart: unless-stopped
-    depends_on:
-      - db_web
+    # depends_on:
+    #   - db_web
     volumes:
       - './:/var/www/html:rw'
 
-  db_web:
-    image: postgres:13-alpine
-    container_name: db_web
-    restart: unless-stopped
-    ports:
-      - 5432:5432
-    environment:
-      POSTGRES_DB: ubapbap
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: password
-    volumes:
-      - 'db_web:/var/lib/postgresql/data:rw'
+  # db_web:
+  #   image: postgres:13-alpine
+  #   container_name: db_web
+  #   restart: unless-stopped
+  #   ports:
+  #     - 5432:5432
+  #   environment:
+  #     POSTGRES_DB: ubapbap
+  #     POSTGRES_USER: admin
+  #     POSTGRES_PASSWORD: password
+  #   volumes:
+  #     - 'db_web:/var/lib/postgresql/data:rw'
 
-  phppgadmin_web:
-    container_name: phppgadmin_web
-    image: docker.io/bitnami/phppgadmin:7
-    depends_on:
-      - db_web
-    restart: unless-stopped
-    environment:
-      - DATABASE_HOST=db_web
-    ports:
-      - 8080:8080
+  # phppgadmin_web:
+  #   container_name: phppgadmin_web
+  #   image: docker.io/bitnami/phppgadmin:7
+  #   depends_on:
+  #     - db_web
+  #   restart: unless-stopped
+  #   environment:
+  #     - DATABASE_HOST=db_web
+  #   ports:
+  #     - 8080:8080
 
-volumes:
-  db_web: {}
+# volumes:
+#   db_web: {}
