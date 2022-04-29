@@ -85,7 +85,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="<?php App\Core\View::getAssets("about/feature-icon-01.svg")?>" alt="Feature 01">
+										<img src="<?php App\Core\View::getAssets("about/feature-icon-01.svg")?>" alt="Characters data">
                                     </div>
                                     <h4 class="feature-title mt-24">All characters data</h4>
                                     <p class="text-sm mb-0">We provide information about all the characters that are not even available on the official website yet.</p>
@@ -94,7 +94,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="<?php App\Core\View::getAssets("about/feature-icon-02.svg")?>" alt="Feature 06">
+										<img src="<?php App\Core\View::getAssets("about/feature-icon-02.svg")?>" alt="Listening">
                                     </div>
                                     <h4 class="feature-title mt-24">Listening...</h4>
                                     <p class="text-sm mb-0">The UBAPBAP team wants your opinion. Don't hesitate to contact me on discord (Playfade#7683) to make the site the way you want it.</p>
@@ -104,7 +104,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="<?php App\Core\View::getAssets("about/feature-icon-03.svg")?>" alt="Feature 03">
+										<img src="<?php App\Core\View::getAssets("about/feature-icon-03.svg")?>" alt="Tierlist">
                                     </div>
                                     <h4 class="feature-title mt-24">Tier list</h4>
                                     <p class="text-sm mb-0">Tier lists for all game modes from the game's biggest players are available for you to choose who to play.</p>
@@ -113,7 +113,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="<?php App\Core\View::getAssets("about/feature-icon-04.svg")?>" alt="Feature 04">
+										<img src="<?php App\Core\View::getAssets("about/feature-icon-04.svg")?>" alt="Meta build">
                                     </div>
                                     <h4 class="feature-title mt-24">Meta build</h4>
                                     <p class="text-sm mb-0">The best players of bapbap.gg are in contact with our team to provide the best builds of the game</p>
@@ -122,7 +122,7 @@
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="<?php App\Core\View::getAssets("about/feature-icon-05.svg")?>" alt="Feature 05">
+										<img src="<?php App\Core\View::getAssets("about/feature-icon-05.svg")?>" alt="Leaderboard">
                                     </div>
                                     <h4 class="feature-title mt-24">Leaderboard</h4>
                                     <p class="text-sm mb-0">The ranking of the best players will arrive soon when the game bapbap.gg will make available the information about the players.</p>
@@ -131,7 +131,7 @@
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="<?php App\Core\View::getAssets("about/feature-icon-06.svg")?>" alt="Feature 02">
+										<img src="<?php App\Core\View::getAssets("about/feature-icon-06.svg")?>" alt="Items data">
                                     </div>
                                     <h4 class="feature-title mt-24">All items data</h4>
                                     <p class="text-sm mb-0">We provide information about all the items that are not even available on the official website yet.</p>

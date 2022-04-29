@@ -7,7 +7,7 @@
             </video>
         </div>
         <div class="desktop-app-landing-page_header">
-            <img src="<?php App\Core\View::getAssets('logo/logo_small.png')?>">
+            <img src="<?php App\Core\View::getAssets('logo/logo_small.png')?>" alt="Logo">
         </div>
     </div>
 </div>

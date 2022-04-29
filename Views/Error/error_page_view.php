@@ -154,4 +154,4 @@ html {
 <br /><br />
 <span class="back"><a href="/">go to home page</a></span>
 
-<img src="http://images2.layoutsparks.com/1/160030/too-much-tv-static.gif" class="static" />
+<img src="http://images2.layoutsparks.com/1/160030/too-much-tv-static.gif" class="static" alt="Error"/>

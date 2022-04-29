@@ -44,7 +44,7 @@
         <div class="top-nav-container">
             <div class="logo-nav">
                 <a href="/" style="width: 100%; display: flex; align-items: center; justify-content: center;">
-                    <img width="81" class="ubapbap-logo" 
+                    <img width="81" class="ubapbap-logo" alt="logo"
                     src="<?php App\Core\View::getAssets("logo/logo_white_large.png")?>" 
                     onmouseover="this.src='<?php App\Core\View::getAssets('logo/logo_large.png')?>'" 
                     onmouseout="this.src='<?php App\Core\View::getAssets('logo/logo_white_large.png')?>'" >

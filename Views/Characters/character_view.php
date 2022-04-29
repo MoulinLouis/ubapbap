@@ -31,21 +31,21 @@
                     <div class="character-build">
                         <div class="character-skills" style="padding-bottom: 25px">
                             <div class="character-skill-with-label protip" id="spell_m1" data-pt-gravity="top">
-                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_m1.png")?>" alt="">
+                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_m1.png")?>" alt="M1 spell">
                                 <div class="skill-label bottom-center">M1</div>
                             </div>
 
                             <div class="character-skill-with-label protip" id="spell_a" data-pt-gravity="top">
-                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_a.png")?>" alt="">
+                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_a.png")?>" alt="Q spell">
                                 <div class="skill-label bottom-center">Q</div>
                                 
                             </div>
                             <div class="character-skill-with-label protip" id="spell_space" data-pt-gravity="top">
-                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_space.png")?>" alt="">
+                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_space.png")?>" alt="SPACE spell">
                                 <div class="skill-label bottom-center space">SPACE</div>
                             </div>
                             <div class="character-skill-with-label protip" id="spell_e" data-pt-gravity="top">
-                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_e.png")?>" alt="">
+                                <img src="<?php App\Core\View::getAssets("spells/". $currentChar ."/spell_e.png")?>" alt="E spell">
                                 <div class="skill-label bottom-center">E</div>
                             </div>
                         </div>

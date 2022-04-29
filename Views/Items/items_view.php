@@ -25,9 +25,8 @@
 
 .selected {
     border-radius: 4px;
-
-    border: 4px solid #fff;
-    border-radius: 3px;
+    outline: 4px solid rgba(255,255,255,.7);
+    outline-offset: -4px;
 }
 
 .sword.selected {
@@ -56,8 +55,10 @@
 }
 
 .character-link:hover {
-    border: 4px solid rgba(255,255,255,.7);
-    border-radius: 3px;
+    /* border: 4px solid rgba(255,255,255,.7); */
+    border-radius: 4px;
+    outline: 4px solid rgba(255,255,255,.7);
+    outline-offset: -4px;
 }
 
 .zook-avatar-border {
@@ -103,7 +104,7 @@
     $.each(items, function( index, value ) {
         let html = "<a href='/items/" + index + "' class='character-link " + index + "'>" +
                         "<div class='image-wrapper'>" +
-                            "<img style='width: 80px' src='" + getUrl.protocol + "//" + getUrl.host + value.imageUrl + "' alt=''>" +
+                            "<img style='width: 80px' src='" + getUrl.protocol + "//" + getUrl.host + value.imageUrl + "' alt=" + value.name +">" +
                         "</div>" +
                         "<div class='item-name'>" + value.name +"</div>" +
                    "</a>"

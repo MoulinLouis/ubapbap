@@ -51,7 +51,7 @@
                 <div class="character-header-wrapper">
                     <div class="character-image-container <?= $currentItem ?>-avatar-border">
                         <div class="character-image-border">
-                            <img src="" class="item-image" id="item-image">
+                            <img src="" class="item-image" id="item-image" alt="<?= $currentItem ?>">
                         </div>
                     </div>
                     <div class="character-header-info">

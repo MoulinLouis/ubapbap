@@ -226,7 +226,7 @@ const matchupElement = {
     html: function(char, desc) {
         return "<a href='/characters/" + char.name.toLowerCase() + "' class='character-matchup'>" +
             "<div class='character-face'>" +
-                "<img src='/public/images/characters/" + char.name.toLowerCase() + ".png' alt=''>" +
+                "<img src='/public/images/characters/" + char.name.toLowerCase() + ".png' alt=" + char.name.toLowerCase() + ">" +
             "</div>" +
             "<div class='character-name-2'>" + char.name + "</div>" +
             "<div class='character-description'>" + desc + "</div>" +
@@ -239,7 +239,7 @@ const itemElement = {
         return "<div class='item-option'>" +
             "<div class='item-img'>" +
                 "<div>" +
-                    "<img style='height: 48px;' src='" + item.imageUrl + "' alt=''>" +
+                    "<img style='height: 48px;' src='" + item.imageUrl + "' alt=" + item.name + ">" +
                 "</div>" +
             "</div>" +
             "<div class='item-stats'>" +
