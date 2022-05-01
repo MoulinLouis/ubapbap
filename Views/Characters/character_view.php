@@ -185,8 +185,9 @@
 <script src="<?php App\Core\View::getAssets("script.js")?>"></script>
 
 <script>
-
-
-
-
+if (window["pJSDom"] instanceof Array && window["pJSDom"].length > 0) {
+    for (let i = 0; i < window["pJSDom"].length; i++)
+        window["pJSDom"][i].pJS.fn.vendors.destroypJS();
+    window["pJSDom"] = [];
+}
 </script>
