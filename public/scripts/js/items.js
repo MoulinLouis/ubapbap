@@ -3,6 +3,7 @@ const items = {
         name: "Sword",
         desc: "+ damage",
         imageUrl: "/public/images/items/sword.png",
+        slug: "/items/sword",
         stats: {
             damage: {
                 name: "Damage",
@@ -19,6 +20,7 @@ const items = {
         name: "Heart bag",
         desc: "+ hp <br>+ hp regen",
         imageUrl: "/public/images/items/heart.png",
+        slug: "/items/heart_bag",
         stats: {
             hp: {
                 name: "Health",
@@ -44,6 +46,7 @@ const items = {
         name: "Sunglasses",
         desc: "% crit chance<br>% crit damage",
         imageUrl: "/public/images/items/crit.png",
+        slug: "/items/sunglasses",
         stats: {
             crit_chance: {
                 name: "Critical chance",
@@ -69,6 +72,7 @@ const items = {
         name: "Teeth",
         desc: "% life steal<br>+ hp",
         imageUrl: "/public/images/items/teeth.png",
+        slug: "/items/teeth",
         stats: {
             life_steal: {
                 name: "Life steal",
@@ -94,6 +98,7 @@ const items = {
         name: "Headband",
         desc: "+ atk speed<br>+ move speed",
         imageUrl: "/public/images/items/band.png",
+        slug: "/items/headband",
         stats: {
             atk_speed: {
                 name: "Attack speed",
@@ -119,6 +124,7 @@ const items = {
         name: "Boots",
         desc: "+ speed<br>+ hp",
         imageUrl: "/public/images/items/boots.png",
+        slug: "/items/boots",
         stats: {
             move_speed: {
                 name: "Movement speed",
@@ -144,6 +150,7 @@ const items = {
         name: "Banana",
         desc: "% cd speed<br>+ move speed",
         imageUrl: "/public/images/items/banana.png",
+        slug: "/items/banana",
         stats: {
             cd_speed: {
                 name: "Cooldown speed",
@@ -169,6 +176,7 @@ const items = {
         name: "Spike armor",
         desc: "% reflect dmg<br>+ hp",
         imageUrl: "/public/images/items/thorn.png",
+        slug: "/items/spike_armor",
         stats: {
             reflect_damage: {
                 name: "Reflect damages",
@@ -239,7 +247,7 @@ const itemElement = {
         return "<div class='item-option'>" +
             "<div class='item-img'>" +
                 "<div>" +
-                    "<img style='height: 48px;' src='" + item.imageUrl + "' alt=" + item.name + ">" +
+                    "<a href='" + item.slug + "'><img style='height: 48px;' src='" + item.imageUrl + "' alt=" + item.name + "></a>" +
                 "</div>" +
             "</div>" +
             "<div class='item-stats'>" +
