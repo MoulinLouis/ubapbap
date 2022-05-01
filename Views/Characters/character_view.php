@@ -186,8 +186,10 @@
 
 <script>
 if (window["pJSDom"] instanceof Array && window["pJSDom"].length > 0) {
-    for (let i = 0; i < window["pJSDom"].length; i++)
+    for (let i = 0; i < 1; i++) {
         window["pJSDom"][i].pJS.fn.vendors.destroypJS();
+    }
     window["pJSDom"] = [];
 }
+document.getElementById("particles-js").remove()
 </script>
