@@ -31,7 +31,7 @@
 }
 .character {
     display: inline-block;
-    height: 80px;
+    height: 100%;
     width: 80px;
     background-position: center;
     background-size: cover;
@@ -44,6 +44,13 @@
     font-size: 15px;
     line-height: 19px;
     color: #333;
+    margin-right: 10px;
+}
+.character:hover {
+    border-radius: 2px;
+
+    outline: 3px solid rgba(255,255,255,.7);
+    outline-offset: -3px;
 }
 
 </style>
