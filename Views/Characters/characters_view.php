@@ -11,8 +11,15 @@
 
 <div class="characters-home-page">
     <div class="character-home">
-
         <div class="characters-container" id="char-containers">
+
+            <?php foreach($allCharacters as $character) { ?>
+
+            <div class="char-btn animate__animated animate__fadeIn <?= $character ?>">
+                <a href="/characters/<?= $character ?>"><img class="char-btn-img noselect" src="/public/images/characters/portraits/<?= $character ?>.png"></a>
+            </div>
+
+            <?php } ?>
 
         </div>
 
@@ -39,19 +46,19 @@
     var getUrl = window.location;
     var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
-    $.each(chars, function(index, value) {
-        let html = `<div class="char-btn animate__animated animate__fadeIn ${index}">
-                        <a href="/characters/${index}"><img class="char-btn-img noselect" src="/public/images/characters/portraits/${index}.png"></a>
-                    </div>`
+    // $.each(chars, function(index, value) {
+    //     let html = `<div class="char-btn animate__animated animate__fadeIn ${index}">
+    //                     <a href="/characters/${index}"><img class="char-btn-img noselect" src="/public/images/characters/portraits/${index}.png"></a>
+    //                 </div>`
 
-        // let html = "<a href='/characters/" + index + "' class='character-link'>" +
-        //                 "<div class='image-wrapper-char'>" +
-        //                     "<img style='width: 100%' src='" + getUrl.protocol + "//" + getUrl.host + "/public/images/characters/" + index + ".png' alt=''>" +
-        //                 "</div>" +
-        //                 "<div class='character-name'>" + value.name +"</div>" +
-        //            "</a>"
-        elCharsContainer.innerHTML += html
-    });
+    //     // let html = "<a href='/characters/" + index + "' class='character-link'>" +
+    //     //                 "<div class='image-wrapper-char'>" +
+    //     //                     "<img style='width: 100%' src='" + getUrl.protocol + "//" + getUrl.host + "/public/images/characters/" + index + ".png' alt=''>" +
+    //     //                 "</div>" +
+    //     //                 "<div class='character-name'>" + value.name +"</div>" +
+    //     //            "</a>"
+    //     elCharsContainer.innerHTML += html
+    // });
 
 
     var path = window.location.href;

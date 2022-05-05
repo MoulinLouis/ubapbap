@@ -7,6 +7,18 @@ use App\Core\View;
 
 class BaseController {
 
+	public $allCharacters = [
+		"anna",
+		"chuck",
+		"froggy",
+		"kiddo",
+		"kitsu",
+		"sashimi",
+		"skinny",
+		"teevee",
+		"zook"
+	];
+
 	public function homeAction(){
 		// $_SESSION['alert']['success'] = ["titre" => "Success", "message" => "Test message"];
 		$view = new View("default", "base");
@@ -14,6 +26,7 @@ class BaseController {
 
 	public function charactersAction(){
 		$view = new View("Characters/characters", "base");
+		$view->assign('allCharacters', $this->allCharacters);
 	}
 
 	public function itemsAction(){

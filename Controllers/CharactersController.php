@@ -6,7 +6,6 @@ use App\Core\Helpers;
 use App\Core\View;
 
 class CharactersController {
-
 	
 	public function characterAction(){
 		$view = new View("Characters/character", "base");
