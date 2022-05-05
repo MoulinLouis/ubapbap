@@ -67,3 +67,28 @@
     color: var(--side-nav-text-color);
     font-weight: 500;
 }
+
+.top-nav-container .logo-nav .icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.react-svg, .react-svg>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-nav-container.collapse {
+    min-width: 68px;
+}
+.side-nav-container.collapse ::-webkit-scrollbar {
+    display: none;
+}
+
+.side-nav.collapse {
+    width: 68px;
+}
+.side-nav.collapse .side-nav_footer {
+    display: none;
+}

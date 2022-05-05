@@ -47,6 +47,7 @@
     <div class="top-nav">
         <div class="top-nav-container">
             <div class="logo-nav">
+            <div id="side-nav_toggle"><div class="react-svg icon"><div><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" class="injected-svg" data-src="https://static.u.gg/assets/ugg/logo/MenuToClose.svg"><g><g><g></g><g><path fill="#fff" d="M0 9.995h12v1.352H0zm0-4.663h12v1.342H0zM0 .67h12v1.342H0z"></path></g></g></g></svg></div></div></div>
                 <a href="/" style="width: 100%; display: flex; align-items: center; justify-content: center;">
                     <img width="81" class="ubapbap-logo" alt="logo"
                     src="<?php App\Core\View::getAssets("logo/logo_white_large.png")?>" 
@@ -71,8 +72,8 @@
 
     <div class="page-content">
         <div class="side-nav-container">
-            <div class="side-nav">
-                <div class="side-nav-links">
+            <div class="side-nav" style="min-width: 60px;">
+                <div class="side-nav-links" style="width: 60px;">
                     <div class="side-navigator">
                         <a class="side-link side-nav-title" href="/characters">
                             <div style="min-width: 55px; height: 100%;">
@@ -153,6 +154,24 @@
 </body>
 
 <script>
+    $('#side-nav_toggle').click(function() {
+        if($(this).hasClass("collapse")) {
+            $('#side-nav_toggle').removeClass("collapse")
+
+            $('.side-nav-container').removeClass("collapse")
+            $('.side-nav').removeClass("collapse")
+        } else {
+            $('#side-nav_toggle').addClass("collapse")
+
+            $('.side-nav-container').addClass("collapse")
+            $('.side-nav').addClass("collapse")
+        }
+
+
+
+
+    });
+
     $(function() {
         $('.side-link').hover(function(e) {
             $(this).find("span").css('color', 'white');
