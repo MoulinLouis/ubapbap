@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" href="<?php App\Core\View::getFaviconUrl()?>"/>
     <title><?= App\Core\View::getActualPageTitle() ?></title>
+
+    <meta name="keywords" content="bapbap, ubapbap">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
 
     <link rel="stylesheet" href="<?php App\Core\View::getAssets("style.css")?>">
     <link rel="stylesheet" href="<?php App\Core\View::getAssets("top_nav.css")?>">

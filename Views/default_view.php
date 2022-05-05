@@ -1,3 +1,8 @@
+<head>
+    <meta name="title" content="UBAPBAP: The Best Bapbap Builds, Tierlist, Statistics">
+    <meta name="description" content="Best Builds from the Best Data. UBAPBAP provides the best Bapbap Builds, Tierlist, Datas, Counters, and more.">
+</head>
+
 <div class="landing-page-container">
     <div class="desktop-app-landing-page">
         <div class="landing-background">
