@@ -19,6 +19,17 @@ class BaseController {
 		"zook"
 	];
 
+	public $allItems = [
+		"sword",
+		"heart_bag",
+		"sunglasses",
+		"teeth",
+		"headband",
+		"boots",
+		"banana",
+		"spike_armor"
+	];
+
 	public function homeAction(){
 		// $_SESSION['alert']['success'] = ["titre" => "Success", "message" => "Test message"];
 		$view = new View("default", "base");
@@ -32,6 +43,7 @@ class BaseController {
 	public function itemsAction(){
 		$view = new View("Items/items", "base");
 		$view->assign('currentItem', basename($_SERVER["REQUEST_URI"]));
+		$view->assign('allItems', $this->allItems);
 	}
 
 	public function tierlistAction(){

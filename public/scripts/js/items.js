@@ -1,3 +1,6 @@
+
+
+
 const items = {
     sword: {
         name: "Sword",
@@ -19,7 +22,7 @@ const items = {
     heart_bag: {
         name: "Heart bag",
         desc: "+ hp <br>+ hp regen",
-        imageUrl: "/public/images/items/heart.png",
+        imageUrl: "/public/images/items/heart_bag.png",
         slug: "/items/heart_bag",
         stats: {
             hp: {
@@ -45,7 +48,7 @@ const items = {
     sunglasses: {
         name: "Sunglasses",
         desc: "% crit chance<br>% crit damage",
-        imageUrl: "/public/images/items/crit.png",
+        imageUrl: "/public/images/items/sunglasses.png",
         slug: "/items/sunglasses",
         stats: {
             crit_chance: {
@@ -97,7 +100,7 @@ const items = {
     headband: {
         name: "Headband",
         desc: "+ atk speed<br>+ move speed",
-        imageUrl: "/public/images/items/band.png",
+        imageUrl: "/public/images/items/headband.png",
         slug: "/items/headband",
         stats: {
             atk_speed: {
@@ -175,7 +178,7 @@ const items = {
     spike_armor: {
         name: "Spike armor",
         desc: "% reflect dmg<br>+ hp",
-        imageUrl: "/public/images/items/thorn.png",
+        imageUrl: "/public/images/items/spike_armor.png",
         slug: "/items/spike_armor",
         stats: {
             reflect_damage: {

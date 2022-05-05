@@ -180,16 +180,5 @@
 
 <script src="<?php App\Core\View::getAssets("libraries/protip.min.js")?>"></script>
 <script src="<?php App\Core\View::getAssets("characters.js")?>"></script>
-<!-- <script src="<?php App\Core\View::getAssets("items.js")?>"></script> -->
 
 <script src="<?php App\Core\View::getAssets("script.js")?>"></script>
-
-<script>
-if (window["pJSDom"] instanceof Array && window["pJSDom"].length > 0) {
-    for (let i = 0; i < 1; i++) {
-        window["pJSDom"][i].pJS.fn.vendors.destroypJS();
-    }
-    window["pJSDom"] = [];
-}
-document.getElementById("particles-js").remove()
-</script>

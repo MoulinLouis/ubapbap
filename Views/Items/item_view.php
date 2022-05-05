@@ -73,6 +73,7 @@
 </div>
 
 <script src="<?php App\Core\View::getAssets("items.js")?>"></script>
+
 <script>
 
 let currentItemName = window.location.pathname.split("/").pop()

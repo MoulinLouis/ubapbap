@@ -1,0 +1,50 @@
+.tier-container {
+    display: flex;
+    flex-direction: column;
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+    background: #1a1a17;
+    color:#000;
+}
+.tier-row {
+    display: flex;
+    flex-direction: row;
+    min-height: 80px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+.label-holder {
+    width: 100px;
+    min-height: 80px;
+    border-right: solid 1px #000;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.tier.sort {
+    flex: 1;
+}
+.character {
+    display: inline-block;
+    height: 100%;
+    width: 80px;
+    background-position: center;
+    background-size: cover;
+    flex: none;
+    cursor: pointer;
+
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 19px;
+    color: #333;
+    margin-right: 10px;
+}
+.character:hover {
+    border-radius: 2px;
+
+    outline: 3px solid rgba(255,255,255,.7);
+    outline-offset: -3px;
+}

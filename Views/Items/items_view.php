@@ -77,9 +77,25 @@
 
 <div class="characters-home-page" style="padding: 20px;">
     <div class="character-home">
+        <div class="title-header">
+            <h1 class="character-list">All items of bapbap</h1>
+            <!-- <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2> -->
+        </div>
+
         <div class="items-container" id="items-containers">
 
 
+            <?php foreach($allItems as $item) { ?>
+
+
+            <a href="/items/<?= $item ?>" class="character-link <?= $item ?>">
+                <div class='image-wrapper'>
+                    <img style='width: 80px' src="/public/images/items/<?= $item ?>.png" alt="<?= $item ?>">
+                </div>
+                <div class='item-name'><?= ucfirst(str_replace('_', ' ', $item)) ?></div>
+            </a>
+
+            <?php } ?>
 
 
         </div>
@@ -95,21 +111,21 @@
 
     </div>
 </div>
-<script src="<?php App\Core\View::getAssets("items.js")?>"></script>
+
 <script>
     const elCharsContainer = document.getElementById("items-containers")
     var getUrl = window.location;
     var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
-    $.each(items, function( index, value ) {
-        let html = "<a href='/items/" + index + "' class='character-link " + index + "'>" +
-                        "<div class='image-wrapper'>" +
-                            "<img style='width: 80px' src='" + getUrl.protocol + "//" + getUrl.host + value.imageUrl + "' alt=" + value.name +">" +
-                        "</div>" +
-                        "<div class='item-name'>" + value.name +"</div>" +
-                   "</a>"
-        elCharsContainer.innerHTML += html
-    });
+    // $.each(items, function( index, value ) {
+    //     let html = "<a href='/items/" + index + "' class='character-link " + index + "'>" +
+    //                     "<div class='image-wrapper'>" +
+    //                         "<img style='width: 80px' src='" + getUrl.protocol + "//" + getUrl.host + value.imageUrl + "' alt=" + value.name +">" +
+    //                     "</div>" +
+    //                     "<div class='item-name'>" + value.name +"</div>" +
+    //                "</a>"
+    //     elCharsContainer.innerHTML += html
+    // });
 
     var path = window.location.href;
     $('#items-containers a').each(function() {

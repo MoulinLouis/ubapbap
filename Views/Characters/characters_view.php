@@ -3,14 +3,13 @@
 <div class="landing-bg"></div>
 <div class="landing-bg2"></div>
 
-<div id="particles-js" style="width: 80%; height: 90%; position: absolute;"></div>
-
-<script src="<?php App\Core\View::getAssets("libraries/particles.min.js") ?>"></script>
-<script src="<?php App\Core\View::getAssets("particles-characters.js") ?>"></script>
-
-
-<div class="characters-home-page">
+<div class="characters-home-page"  style="padding: 20px;">
     <div class="character-home">
+        <div class="title-header">
+            <h1 class="character-list">All characters of bapbap</h1>
+            <!-- <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2> -->
+        </div>
+
         <div class="characters-container" id="char-containers">
 
             <?php foreach($allCharacters as $character) { ?>
@@ -59,7 +58,6 @@
     //     //            "</a>"
     //     elCharsContainer.innerHTML += html
     // });
-
 
     var path = window.location.href;
     $('.char-btn a').each(function() {
