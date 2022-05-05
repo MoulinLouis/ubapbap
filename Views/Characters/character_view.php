@@ -95,7 +95,7 @@
                             </div>
                         </div>
 
-                        <div class="filter-manager">
+                        <!-- <div class="filter-manager">
                             <div class="filter-width-wrapper">
                                 <div class="filter-manager_container">
                                     <div class="filter-manager_label" style="padding-right: 10px;">
@@ -110,7 +110,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <h1><span id="whodidit"></span></h1>
 
                         <div class="content-section recommended-build_items">

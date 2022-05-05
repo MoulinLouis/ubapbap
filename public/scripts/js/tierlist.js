@@ -1,39 +1,48 @@
 const chars = {
     anna: {
         name: "Anna",
-        imageUrl: "/public/images/tierlist/anna.png"
+        imageUrl: "/public/images/tierlist/anna.png",
+        slug: "/characters/anna"
     },
     chuck: {
         name: "Chuck",
-        imageUrl: "/public/images/tierlist/chuck.png"
+        imageUrl: "/public/images/tierlist/chuck.png",
+        slug: "/characters/chuck"
     },
     froggy: {
         name: "Froggy",
-        imageUrl: "/public/images/tierlist/froggy.png"
+        imageUrl: "/public/images/tierlist/froggy.png",
+        slug: "/characters/froggy"
     },
     kiddo: {
         name: "Kiddo",
-        imageUrl: "/public/images/tierlist/kiddo.png"
+        imageUrl: "/public/images/tierlist/kiddo.png",
+        slug: "/characters/kiddo"
     },
     kitsu: {
         name: "Kitsu",
-        imageUrl: "/public/images/tierlist/kitsu.png"
+        imageUrl: "/public/images/tierlist/kitsu.png",
+        slug: "/characters/kitsu"
     },
     sashimi: {
         name: "Sashimi",
-        imageUrl: "/public/images/tierlist/sashimi.png"
+        imageUrl: "/public/images/tierlist/sashimi.png",
+        slug: "/characters/sashimi"
     },
     skinny: {
         name: "Skinny",
-        imageUrl: "/public/images/tierlist/skinny.png"
+        imageUrl: "/public/images/tierlist/skinny.png",
+        slug: "/characters/skinny"
     },
     teevee: {
         name: "Teevee",
-        imageUrl: "/public/images/tierlist/teevee.png"
+        imageUrl: "/public/images/tierlist/teevee.png",
+        slug: "/characters/teevee"
     },
     zook: {
         name: "Zook",
-        imageUrl: "/public/images/tierlist/zook.png"
+        imageUrl: "/public/images/tierlist/zook.png",
+        slug: "/characters/zook"
     }
 }
 
@@ -130,6 +139,32 @@ const tierlist = {
             }
         }
     },
+    thesunnyboy: {
+        name: "Tierlist by Thesunnyboy",
+        desc: "The worst player !",
+        ranks: {
+            z: {
+                characters: ["skinny", "teevee"],
+                color: "rgb(255, 127, 127)"
+            },
+            y: {
+                characters: ["kitsu", "kiddo"],
+                color: "rgb(255, 191, 127)"
+            },
+            x: {
+                characters: ["sashimi"],
+                color: "rgb(255, 223, 127)"
+            },
+            u: {
+                characters: ["zook", "chuck"],
+                color: "#FFFF7F"
+            },
+            w: {
+                characters: ["froggy", "anna"],
+                color: "rgb(191, 255, 127)"
+            }
+        }
+    },
 }
 
 const elTierConstainer = document.getElementById('tier-container')
@@ -154,7 +189,7 @@ function loadTierlist(currentTierlist) {
     
         $.each(value.characters, function( index, value ) {
             let character = chars[value]
-            tierlistElement += `<div class="character" id="1" style="background-image: url(${character.imageUrl});"></div>`
+            tierlistElement += `<div onclick="window.location='${character.slug}'" class="character" id="1" style="background-image: url(${character.imageUrl});"></div>`
         });
     
         tierlistElement += `</div>

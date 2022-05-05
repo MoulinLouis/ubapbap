@@ -7,7 +7,7 @@
                     <h4><?php echo date("M jS, Y", strtotime("2022-04-17")); ?></h4>
                 </div>
                 <div class="tm-timeline-body">
-                    <h2 class="uk-margin-medium-bottom">Version closed beta</h2>
+                    <h2 class="uk-margin-medium-bottom">v0.1.2693-c000d</h2>
                     <ul class="uk-list uk-list-medium">
                         <li>Reduced Teevee damage for LMB and Q a bit</li>
                         <li>Reduced Teevee clone duration and clone spawn range</li>
