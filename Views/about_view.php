@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UBAPBAP - About ubapbap</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="bapbap, ubapbap">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <title>UBAPBAP: The Best Bapbap Builds, Tierlist, Statistics</title>
+    <meta name="title" content="UBAPBAP: The Best Bapbap Builds, Tierlist, Statistics">
+    <meta name="description" content="Best Builds from the Best Data. UBAPBAP provides the best Bapbap Builds, Tierlist, Datas, Counters, and more.">
+
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="<?php App\Core\View::getAssets("about/style.css")?>">
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>

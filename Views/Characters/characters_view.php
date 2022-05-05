@@ -1,3 +1,14 @@
+<?php
+$actual_link = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$char = basename($actual_link);
+if (!empty($char) && $char == "characters") { ?>
+    <title>Characters stats - UBAPBAP</title>
+    <meta name="title" content="Characters stats - UBAPBAP">
+    <meta name="description" content="Best UBAPBAP Stats! Check the data for Every Characters. Find your Build and Win more Games">
+<?php
+}
+?>
+
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("characters.css") ?>">
 
 <div class="landing-bg"></div>
@@ -23,10 +34,8 @@
         </div>
 
         <?php
-        $actual_link = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        $character = basename($actual_link);
-        if (!empty($character) && $character != "characters") {
-            $currentChar = $character;
+        if (!empty($char) && $char != "characters") {
+            $currentChar = $char;
             include('Views/Characters/character_view.php');
         }
         ?>

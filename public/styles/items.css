@@ -79,3 +79,114 @@
 .rwd-table td:before {
     color: #dd5;
 }
+
+.character-link .item-name {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--font-color-main);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.item-name {
+    font-weight: 600;
+}
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-gap: 12px 12px;
+    padding: 20px;
+    margin: 10px;
+    height: 170px !important;
+    align-items: center !important;
+}
+
+.selected {
+    border-radius: 4px;
+    outline: 4px solid rgba(255,255,255,.7);
+    outline-offset: -4px;
+}
+
+.sword.selected {
+    background: var(--sword-color);
+}
+.heart_bag.selected {
+    background: var(--heart_bag-color);
+}
+.sunglasses.selected {
+    background: var(--sunglasses-color);
+}
+.teeth.selected {
+    background: var(--teeth-color);
+}
+.headband.selected {
+    background: var(--headband-color);
+}
+.boots.selected {
+    background: var(--boots-color);
+}
+.banana.selected {
+    background: var(--banana-color);
+}
+.spike_armor.selected {
+    background: var(--spike_armor-color);
+}
+
+.character-link:hover {
+    /* border: 4px solid rgba(255,255,255,.7); */
+    border-radius: 4px;
+    outline: 4px solid rgba(255,255,255,.7);
+    outline-offset: -4px;
+}
+
+.zook-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--zook-color) border-box;
+    -webkit-mask-composite: xor;
+}
+.character-link {
+    padding: 12px 10px;
+}
+
+.sword-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--sword-color) border-box;
+}
+.heart_bag-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--heart_bag-color) border-box;
+}
+.sunglasses-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--sunglasses-color) border-box;
+}
+.teeth-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--teeth-color) border-box;
+}
+.headband-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--headband-color) border-box;
+}
+.boots-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--boots-color) border-box;
+}
+.banana-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--banana-color) border-box;
+}
+.spike_armor-avatar-border {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: var(--spike_armor-color) border-box;
+}

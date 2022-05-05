@@ -1,3 +1,7 @@
+<title>The Best Bapbap Tierlist for the Latest Patch - UBAPBAP</title>
+<meta name="title" content="The Best Bapbap Tierlist for the Latest Patch - UBAPBAP">
+<meta name="description" content="Best Tierlist from All the Best Players of Bapbap. Discover the Best Characters to play for the Latest Patch">
+
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("characters.css")?>">
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("tierlist.css")?>">
 

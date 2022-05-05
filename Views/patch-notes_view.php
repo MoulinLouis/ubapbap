@@ -1,3 +1,7 @@
+<title>The Latest Patch Notes Infos for BAPBAP</title>
+<meta name="title" content="The Latest Patch Notes Infos for BAPBAP">
+<meta name="description" content="Find all the details of each patch notes from the start of the game bapbap.gg">
+
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("patch-notes.css")?>">
 
 <div class="tm-timeline uk-margin-large-top uk-margin-xlarge-bottom">

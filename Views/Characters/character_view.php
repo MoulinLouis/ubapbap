@@ -1,5 +1,6 @@
-<meta name="title" content="<?= $currentChar ?> Build with Highest Winrate - Best Items, Counters and Synergies">
-<meta name="description" content="<?= $currentChar ?> build with the highest winrate, items path, counters and synergies to win your game in the latest bapbap patch">
+<title><?= ucfirst($currentChar) ?> Build with Highest Winrate - Best Items, Counters and Synergies</title>
+<meta name="title" content="<?= ucfirst($currentChar) ?> Build with Highest Winrate - Best Items, Counters and Synergies">
+<meta name="description" content="<?= ucfirst($currentChar) ?> build with the highest winrate, items path, counters and synergies to win your game in the latest bapbap patch">
 
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("libraries/protip.min.css")?>">
 

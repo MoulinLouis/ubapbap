@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" href="<?php App\Core\View::getFaviconUrl()?>"/>
-    <title><?= App\Core\View::getActualPageTitle() ?></title>
+    <!-- <title><?= App\Core\View::getActualPageTitle() ?></title> -->
 
     <meta name="keywords" content="bapbap, ubapbap">
     <meta name="robots" content="index, follow">
