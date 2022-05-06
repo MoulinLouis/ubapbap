@@ -4,7 +4,7 @@ let currentCharName = window.location.pathname.split("/").pop()
 // let url = new URL(window.location)
 // let params = new URLSearchParams(url.search);
 // let currentCharName = params.get('c') // 'mdn query string'
-// console.log(currentCharName)
+console.log(currentCharName)
 
 // currentCharName = "kitsu"
 switch(currentCharName) {
@@ -159,9 +159,9 @@ switch(currentCharName) {
                 trash_items: ["spike_armor"]
             },
             matchups: {
-                good: [],
-                bad: [],
-                synergy: []
+                good: [["kiddo", "Jump, jump oh and jump again, it's a kill. Avoid his self ult with one of your spell. Care if Kiddo have high rarity thorn"], ["kitsu", "Force her to use her space early and avoid the ult with space, Q or E 🙃"]],
+                bad: [["chuck", "Joking. Froggy ofc don't have bad matchups"]],
+                synergy: [["anna", "You can hard hunt with your high mobilities"], ["kiddo", "Less aggressive gameplay, but very nice damage combo"]]
             },
             spell_m1: "<h3><strong>SWORD SLASH</strong></h3><strong>Slash for a 3-hit combo. Apply slow on the 3rd slash.</strong><br>Damage : 140 per attack<br>3rd atk damage : 200",
             spell_a: "<h3><strong>STICKY TONGUE</strong></h3><strong>Pull yourself with your tongue. Apply slow on hit.</strong><br>CD : 5 seconds<br>IFrame : yes",
@@ -322,9 +322,9 @@ switch(currentCharName) {
                 trash_items: ["sword", "teeth"]
             },
             matchups: {
-                good: [],
-                bad: [],
-                synergy: []
+                good: [["chuck", "Him, again.. easy. Jokes appart, try to ult when he doesn't have space and it's free you have more everything"]],
+                bad: [["anna", "She can kite you very easily. Try to catch her off-guards if she doesn't have high rarity banana, otherwise, play with your mates"]],
+                synergy: [["anna", "Basically, use your CC to setup your ranged mates"], ["kiddo", ""], ["kitsu", ""], ["teevee", ""], ["zook", ""]]
             },
             spell_m1: "<h3><strong>POWER FIST</strong></h3><strong>Do a 3-hit punch combo.</strong><br>Damage : 220 per attack<br>3rd atk damage : 300",
             spell_a: "<h3><strong>BAP CLAP</strong></h3><strong>Clap ennemies in front of you. Apply stun on hit.</strong><br>Damage : 250<br>CD : 7 seconds",

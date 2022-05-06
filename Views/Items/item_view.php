@@ -39,7 +39,7 @@
 
 let currentItemName = window.location.pathname.split("/").pop()
 
-currentItem = items[currentItemName]
+currentItem = items[currentItemName.replace('-', '_')]
 
 const elItemName = document.getElementById('item-name')
 const elItemDesc = document.getElementById('item-desc')

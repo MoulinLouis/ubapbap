@@ -2,6 +2,8 @@
 <html lang="en" class="no-js">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="keywords" content="bapbap, ubapbap">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
@@ -59,7 +61,7 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Analytics inspire better GAMING</h1>
+	                        <h1 class="hero-title mt-0">UBAPBAP: Analytics inspire better GAMING</h1>
 	                        <p class="hero-paragraph">UBAPBAP provide insights to gamers for bapbap.gg. The team at UBAPBAP are full of hardcore gamers (I'm all alone in my underwear in front of my screen). We enjoy all kinds of games across all platforms. We understand what gamers need and what gamers want at their very cores, and enable them to be engaged even deeper within the games.</p>
 	                        <div class="hero-cta"><a class="button button-primary" href="/characters">See all characters</a><a class="button" href="/tierlist">See tierlist</a></div>
 						</div>

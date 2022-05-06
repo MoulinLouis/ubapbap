@@ -1,6 +1,7 @@
 <?php 
 $actual_link = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$item = basename($actual_link);
+$item = str_replace("-", "_", basename($actual_link));
+
 if(!empty($item) && $item == "items") {?>
     <title>Items stats - UBAPBAP</title>
     <meta name="title" content="Items stats - UBAPBAP">
@@ -23,11 +24,11 @@ if(!empty($item) && $item == "items") {?>
 
             <?php foreach($allItems as $items) { ?>
 
-            <a href="/items/<?= $items ?>" class="character-link <?= $items ?>">
+            <a href="/items/<?= $items ?>" class="character-link <?= str_replace('-', '_', $items) ?>">
                 <div class='image-wrapper'>
-                    <img style='width: 80px' src="/public/images/items/<?= $items ?>.png" alt="<?= $items ?>">
+                    <img style='width: 80px' src="/public/images/items/<?= str_replace('-', '_', $items) ?>.png" alt="<?= str_replace('-', ' ', $items) ?>">
                 </div>
-                <div class='item-name'><?= ucfirst(str_replace('_', ' ', $items)) ?></div>
+                <div class='item-name'><?= ucfirst(str_replace('-', ' ', $items)) ?></div>
             </a>
 
             <?php } ?>

@@ -1,15 +1,17 @@
-<title>The Latest Patch Notes Infos for BAPBAP</title>
-<meta name="title" content="The Latest Patch Notes Infos for BAPBAP">
+<title>The Latest Patch Notes Infos - BAPBAP</title>
+<meta name="title" content="The Latest Patch Notes Infos - BAPBAP">
 <meta name="description" content="Find all the details of each patch notes from the start of the game bapbap.gg">
 
 <link rel="stylesheet" href="<?php App\Core\View::getAssets("patch-notes.css")?>">
 
 <div class="tm-timeline uk-margin-large-top uk-margin-xlarge-bottom">
-
             <div class="tm-timeline-entry">
+                <h1 style="padding-left: 64px;">All patch notes history</h1><br>
+
                 <div class="tm-timeline-time">
                     <h4><?php echo date("M jS, Y", strtotime("2022-04-17")); ?></h4>
                 </div>
+
                 <div class="tm-timeline-body">
                     <h2 class="uk-margin-medium-bottom">v0.1.2693-c000d</h2>
                     <ul class="uk-list uk-list-medium">

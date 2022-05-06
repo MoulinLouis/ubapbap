@@ -4,6 +4,7 @@
 
 <div class="landing-page-container">
     <div class="desktop-app-landing-page">
+        <h1 style="display: none;">UBAPBAP</h1>
         <div class="landing-background">
             <div class="overlay"></div>
             <video autoplay loop muted>

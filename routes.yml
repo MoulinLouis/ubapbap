@@ -88,7 +88,7 @@
 ### ### ###
 
 ### ITEMS ###
-/items/heart_bag:
+/items/heart-bag:
   controller: BaseController
   action: Items
   title: UBAPBAP - Heart bag
@@ -103,7 +103,7 @@
   action: Items
   title: UBAPBAP - Teeth
 
-/items/spike_armor:
+/items/spike-armor:
   controller: BaseController
   action: Items
   title: UBAPBAP - Spike armor

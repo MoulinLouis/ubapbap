@@ -21,13 +21,13 @@ class BaseController {
 
 	public $allItems = [
 		"sword",
-		"heart_bag",
+		"heart-bag",
 		"sunglasses",
 		"teeth",
 		"headband",
 		"boots",
 		"banana",
-		"spike_armor"
+		"spike-armor"
 	];
 
 	public function homeAction(){
@@ -42,7 +42,7 @@ class BaseController {
 
 	public function itemsAction(){
 		$view = new View("Items/items", "base");
-		$view->assign('currentItem', basename($_SERVER["REQUEST_URI"]));
+		$view->assign('currentItem', str_replace("-", "_", basename($_SERVER["REQUEST_URI"])));
 		$view->assign('allItems', $this->allItems);
 	}
 

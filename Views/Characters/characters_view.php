@@ -26,7 +26,7 @@ if (!empty($char) && $char == "characters") { ?>
             <?php foreach($allCharacters as $character) { ?>
 
             <div class="char-btn animate__animated animate__fadeIn <?= $character ?>">
-                <a href="/characters/<?= $character ?>"><img class="char-btn-img noselect" src="/public/images/characters/portraits/<?= $character ?>.png"></a>
+                <a href="/characters/<?= $character ?>"><img class="char-btn-img noselect" src="/public/images/characters/portraits/<?= $character ?>.png" alt="<?= $character ?>"></a>
             </div>
 
             <?php } ?>

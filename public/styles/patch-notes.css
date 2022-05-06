@@ -191,10 +191,10 @@ dd {
     margin-bottom: 70px;
   }
   * + .uk-margin-large {
-    margin-top: 70px !important;
+    margin-top: 40px !important;
   }
   .uk-margin-large-top {
-    margin-top: 70px !important;
+    margin-top: 40px !important;
   }
   .uk-margin-large-bottom {
     margin-bottom: 70px !important;
@@ -273,7 +273,11 @@ dd {
     letter-spacing: 1px;
   }
 }
-
+@media (max-width: 1064px) {
+  .tm-timeline:before {
+    top: 200px !important;
+  }
+}
 @media (min-width: 960px) {
   .tm-faq .uk-article,
   .tm-faq .uk-list {
@@ -309,7 +313,7 @@ dd {
   .tm-timeline:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 120px;
     left: calc(25% - 2px);
     bottom: 0;
     width: 4px;

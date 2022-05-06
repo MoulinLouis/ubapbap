@@ -23,7 +23,7 @@ const items = {
         name: "Heart bag",
         desc: "+ hp <br>+ hp regen",
         imageUrl: "/public/images/items/heart_bag.png",
-        slug: "/items/heart_bag",
+        slug: "/items/heart-bag",
         stats: {
             hp: {
                 name: "Health",
@@ -179,7 +179,7 @@ const items = {
         name: "Spike armor",
         desc: "% reflect dmg<br>+ hp",
         imageUrl: "/public/images/items/spike_armor.png",
-        slug: "/items/spike_armor",
+        slug: "/items/spike-armor",
         stats: {
             reflect_damage: {
                 name: "Reflect damages",
