@@ -247,8 +247,11 @@
 
 <script>
     var nav_state = sessionStorage.getItem('navbar');
-    navbarOpenOrClose(nav_state)
-
+    if ($(window).width() < 699) {
+        navbarOpenOrClose("close")
+    } else {
+        navbarOpenOrClose(nav_state)
+    }
     $('#side-nav_toggle').click(function() {
         if ($(this).hasClass("collapse")) {
             navbarOpenOrClose("open")

@@ -29,6 +29,8 @@
             <strong>BAPBAP Tier List - 2s</strong>
             <span> / </span>
             <strong style="color: #92929d;">Patch : v0.1.2693-c000d</strong>
+            <br>
+            <i>this is not real time data</i>
         </div>
 
         <div class="tier-grid">
@@ -44,7 +46,7 @@
                     <div class="grid-block-content">
                         <div class="champion-list">
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/froggy" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/froggy.png") ?>" alt="froggy">
@@ -56,10 +58,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>10%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>6 525</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -67,7 +69,7 @@
                             </div>
 
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/kiddo" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/kiddo.png") ?>" alt="kiddo">
@@ -79,10 +81,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>11%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>3 204</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -90,7 +92,7 @@
                             </div>
 
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/anna" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/anna.png") ?>" alt="anna">
@@ -102,10 +104,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>10%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>4 832</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -129,7 +131,7 @@
                     <div class="grid-block-content">
                         <div class="champion-list">
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/sashimi" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/sashimi.png") ?>" alt="sashimi">
@@ -141,10 +143,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>8%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>2 989</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -168,7 +170,7 @@
                     <div class="grid-block-content">
                         <div class="champion-list">
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/kitsu" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/kitsu.png") ?>" alt="kitsu">
@@ -180,10 +182,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>11%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>4 315</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -191,7 +193,7 @@
                             </div>
 
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/zook" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/zook.png") ?>" alt="zook">
@@ -203,10 +205,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>13%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>5 872</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -230,7 +232,7 @@
                     <div class="grid-block-content">
                         <div class="champion-list">
                             <div class="tier-champion">
-                                <a href="/tierlist" class="champion-link">
+                                <a href="/characters/teevee" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/teevee.png") ?>" alt="teevee">
@@ -242,10 +244,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>???%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>???</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -253,7 +255,7 @@
                             </div>
 
                             <div class="tier-champion">
-                                <a href="/" class="champion-link">
+                                <a href="/characters/chuck" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/chuck.png") ?>" alt="chuck">
@@ -265,10 +267,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>11%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>4 274</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
@@ -276,7 +278,7 @@
                             </div>
 
                             <div class="tier-champion">
-                                <a href="" class="champion-link">
+                                <a href="/characters/skinny" class="champion-link">
                                     <div class="champion-wrapper">
                                         <div class="champion-image">
                                             <img src="<?php App\Core\View::getAssets("characters/skinny.png") ?>" alt="skinny">
@@ -288,10 +290,10 @@
 
                                     <div class="champion-stats">
                                         <div class="win-rate okay-tier">
-                                            <strong>51.5%</strong>
+                                            <strong>9%</strong>
                                         </div>
                                         <div>
-                                            <strong>8,447</strong>&nbsp;
+                                            <strong>7 727</strong>&nbsp;
                                             <span class="grey-text">Matches</span>
                                         </div>
                                     </div>
