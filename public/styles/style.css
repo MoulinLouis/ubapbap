@@ -188,3 +188,25 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
     background-color: #11112a;
 }
+
+.landing-page-container_mobile {
+    flex: 1 1;
+    padding-bottom: 24px;
+    width: 100%;
+}
+.landing-page-container_mobile .landing-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.content-side-padding {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.content-title {
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+}

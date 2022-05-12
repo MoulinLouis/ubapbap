@@ -1,0 +1,154 @@
+@media (max-width: 699px) {
+    .landing-page-container-mobile.hide {
+        display: none;
+    }
+    .tier-homepage-container .tier-grid {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 12px;
+    }
+    .landing-page-container-mobile .grid-block {
+        display: block;
+    }
+    .grid-block {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .landing-page-container-mobile .grid-block-header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding: 0 24px;
+        border-bottom: 1px solid #2c2c40;
+        background-color: #17172e;
+        color: #fff;
+        text-decoration: none;
+    }
+    .landing-page-container-mobile .grid-block-header .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+    .landing-page-container-mobile .grid-block-header .title h2 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .landing-page-container-mobile .grid-block-content {
+        padding: 16px 15px;
+    }
+    .grid-block-content {
+        flex: 1 1;
+        background-color: var(--ugg-background-alt-2);
+        overflow: hidden;
+    }
+    .grid-block-content,
+    .grid-block-header {
+        border: 1px solid #2c2c40;
+        box-shadow: none;
+    }
+    .tier-homepage-container .tier-grid .champion-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tier-homepage-container .tier-grid .tier-champion {
+        flex: 1 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    a,
+    a:active,
+    a:focus,
+    a:hover,
+    a:visited {
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-wrapper {
+        position: relative;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-image {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid #2c2c40;
+        overflow: hidden;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-image img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-keystone,
+    .tier-homepage-container .tier-grid .tier-champion .champion-tier {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        font-weight: 700;
+        background-color: #2c2c40;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-tier {
+        top: 0;
+        left: 0;
+        transform: translate(-35%, -25%);
+        font-size: 1.1rem;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-name {
+        margin-top: 8px;
+        margin-bottom: 6px;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+        font-size: 0.8rem;
+    }
+    .tier-homepage-container .tier-grid .tier-champion .champion-stats .win-rate {
+        margin-bottom: 2px;
+    }
+    .okay-tier {
+        color: #fff;
+    }
+    .grey-text {
+        color: #92929d;
+    }
+    .god-tier {
+        color: rgb(255, 127, 127);
+    }
+    .strong-tier {
+        color: rgb(255, 191, 127);
+    }
+    .mid-tier {
+        color: rgb(255, 223, 127);
+    }
+    .low-tier {
+        color: #ffff7f;
+    }
+}
