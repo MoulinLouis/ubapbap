@@ -155,14 +155,69 @@ a, a:hover, a:active, a:focus {
     padding: 24px 0;
 }
 .side-nav_footer .disclaimer .disclaimer-title {
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding-bottom: 12px;
     color: #bbbedb;
     font-weight: 500;
 }
 .side-nav_footer .disclaimer span {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #5f5f7b;
+}
+.side-nav_footer .footer-sitemap {
+    max-width: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2c2c40;
+}
+.side-nav_footer .footer-sitemap a {
+    color: #bbbedb;
+    font-size: 13px;
+    font-weight: 900;
+}
+.side-nav_footer .footer-sitemap span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #5f5f7b;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.side-nav_footer .connect-with-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 24px;
+    width: 100%;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border: 1px hidden #2c2c40;
+    border-bottom: 1px solid #2c2c40;
+}
+.side-nav_footer .connect-with-us .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.side-nav_footer .connect-with-us .social-media .social-media-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.react-svg, .react-svg>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-nav_footer .connect-with-us .social-media .social-media-links .social-media-icon svg {
+    width: 20px;
+    height: 20px;
 }
 .side-nav-container ::-webkit-scrollbar {
     background-color: hsla(0,0%,100%,0);
