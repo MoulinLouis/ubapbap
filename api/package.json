@@ -4,10 +4,15 @@
     "description": "Node.js on Docker",
     "author": "First Last <first.last@example.com>",
     "main": "server.js",
+    "type": "module",
     "scripts": {
-      "start": "node server.js"
+        "start": "nodemon server.js",
+        "start:dev": "nodemon server.js"
     },
     "dependencies": {
-      "express": "^4.16.1"
+        "cors": "^2.8.5",
+        "express": "^4.16.1",
+        "dotenv": "^16.0.0",
+        "uuid": "^8.3.2"
     }
-  }
+}

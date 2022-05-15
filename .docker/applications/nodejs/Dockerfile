@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:13
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 #COPY package*.json ./
 
-RUN npm install
+RUN npm install -g nodemon && npm install
 # If you are building your code for production
 # RUN npm ci --only=production
 
@@ -16,4 +16,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "nodemon", "bin/www" ]

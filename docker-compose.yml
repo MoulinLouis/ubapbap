@@ -33,6 +33,7 @@ services:
     restart: unless-stopped
     # depends_on:
     #   - db_web
+    command: npm run start:dev
     ports:
       - 49160:8080
     volumes:
