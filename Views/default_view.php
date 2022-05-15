@@ -309,9 +309,11 @@
 </div>
 
 <script>
-    const url = 'http://localhost:49160/health';
+    const baseUrl = window.location.href.replace(/\/+$/, '') + ":49160"
 
-    fetch(url)
+    const apiUrl = baseUrl + "/health";
+
+    fetch(apiUrl)
         .then((resp) => resp.json())
         .then(function(data) {
             console.log(data)
