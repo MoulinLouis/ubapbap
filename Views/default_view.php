@@ -309,8 +309,10 @@
 </div>
 
 <script>
-    const baseUrl = window.location.href.replace(/\/+$/, '') + ":49160"
+    // Working with https working
+    // const baseUrl = window.location.href.replace(/\/+$/, '') + ":49160"
 
+    const baseUrl = "http://" + window.location.hostname + ":49160"
     const apiUrl = baseUrl + "/health";
 
     fetch(apiUrl)
