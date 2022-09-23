@@ -6,7 +6,7 @@ Site that list informations about the game bapbap.gg
 
 ## Getting Started
 
-Go to [https://ubap.jacques-curtis.fr/](https://ubap.jacques-curtis.fr/)
+Go to [https://ubapbap.com/](https://ubapbap.com/)
 
 ## What's done ?
 
